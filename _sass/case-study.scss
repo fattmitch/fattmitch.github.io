@@ -1,0 +1,121 @@
+.container {
+  margin-top: 65px;
+}
+
+.back {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  font-size: .75rem;
+}
+
+.next {
+  position: absolute;
+  top: 75px;
+  right: 10px;
+  font-size: .75rem;
+}
+
+.next a,
+.back a {
+  color: $dark-blue;
+}
+
+.next a:hover,
+.back a:hover {
+  color: $highlight;
+}
+
+.case-study {
+  width: 95%;
+  margin: 110px auto 0px;
+  font-size: 0.8rem;
+  line-height: 1.33rem;
+}
+
+.case-study h1 {
+  text-align: center;
+}
+
+.case-study h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.case-study p {
+  margin-bottom: 20px;
+}
+
+.case-study a {
+  color: $highlight;
+}
+
+hr {
+  margin-bottom: 20px;
+  max-width: 873px;
+  text-align: center;
+  border: 0;
+  height: 1px;
+  background: $dark-blue;
+}
+
+.container p img {
+  width: 100%;
+  max-width: 843px;
+}
+
+.yellow {
+  color: #FFB73E
+}
+
+.case-study .learn-button {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  
+  .back {
+    position: fixed;
+    top: 80px;
+    left: 30px;
+    padding-top: 10px
+  }
+  
+  .next {
+    position: fixed;
+    top: 80px;
+    right: 30px;
+    padding-top: 10px
+  }
+  
+  .case-study {
+    max-width: 843px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  
+  .case-study h1 {
+    font-size: 2rem;
+  }
+  
+  .case-study h2 {
+    margin-top: 40px;
+    font-size: 1.6rem;
+  }
+  
+  hr {
+    height: 2px;
+  }
+  
+  .case-study .learn-button {
+    width: 70%;
+    margin: 10px 15% 25px 15%;
+    text-align: center;
+  }
+}

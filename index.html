@@ -66,13 +66,15 @@ layout: default
     <div class="contact-left">
     <h1 class="large">Want to get in touch?</h1>
     <div class="contact-form">
-      <form>
-        <input type="text" id="name" placeholder="Name">
-        <input type="text" id="email" placeholder="Email">
-        <input type="text" id="phone" placeholder="Phone Number">
-        <textarea id="comments" placeholder="How can I help?"></textarea>
+      <form action="https://getsimpleform.com/messages?form_api_token=f7bb1dc7d2fe3dbb67770c5b6adffb52" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='http://mattfit.ch/thank-you' />
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="text" name="phone" placeholder="Phone Number">
+        <textarea name="comments" placeholder="How can I help?" required></textarea>
         <input class="full" type="submit" value="Send It!">
-      </form>
+    </form>
     </div>
     </div>
     <div class="contact-right">
