@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  background-color: $dark-blue;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  z-index: 1;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 120px;
+}
+
+.logo .nav-logo {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.navbar .nav-container {
+  display: none;
+}
+
+.nav-container .my-title {
+  color: #ECF0F1;
+  font-size: 0.75rem
+}
+
+@media (min-width: 786px) {
+  
+  .navbar .nav-container {
+    display: inline-block;
+  }
+  
+  .logo {
+    max-width: 135px;
+  }
+}

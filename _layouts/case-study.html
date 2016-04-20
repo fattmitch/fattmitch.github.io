@@ -1,0 +1,17 @@
+---
+layout: default-alt-nav
+---
+
+<div class="container">
+  <div class="back">
+    <a href="/index.html#work"><i class="fa fa-angle-left"></i>&nbsp;Back to work</a>
+  </div>
+  {% if page.next.url %}
+  <div class="next">
+  <a href="{{page.next.url}}">{{page.next.title}}&nbsp;<i class="fa fa-angle-right"></i></a>
+  </div>
+  {% endif %}
+  <div class="case-study">
+    {{ content }}
+  </div>
+</div>

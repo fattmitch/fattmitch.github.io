@@ -1,0 +1,19 @@
+.learn-button {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  padding: 8px;
+  width: 40%;
+  border-radius: 5px;
+  background: rgba(20, 161, 255, 0.67);
+  color: white;
+  font-size: .75rem;
+  @include transition;
+}
+
+.learn-button a {
+  color: #fff;
+}
+
+.learn-button:hover {
+  background: $highlight;
+}

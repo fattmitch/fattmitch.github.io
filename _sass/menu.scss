@@ -1,0 +1,68 @@
+.menu {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: -50%;
+  background: rgba(255, 255, 255, 0.99);
+  font-family: "Playfair Display", serif;
+  -webkit-transition: right 400ms ease-in-out;
+  -moz-transition: right 400ms ease-in-out;
+  -o-transition: right 400ms ease-in-out;
+  transition: right 400ms ease-in-out;
+  z-index: 200;
+}
+
+.menu .active a {
+  color: $highlight !important;
+}
+
+.menu a:hover {
+  color: $highlight;
+}
+
+.show {
+  right: 0px;
+}
+
+.menu-button-container {
+  position: fixed;
+  right: 17px;
+  top: 25px;
+  z-index: 201;
+}
+
+.menu ul {
+  position: relative;
+  top: -10px;
+}
+
+.menu ul li {
+  font-size: 20px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.menu ul li a {
+  color: $dark-blue;
+}
+
+@media (min-width: 768px) {
+  .menu {
+      width: 25%;
+      right: -25%;
+  }
+    
+  .show {
+    right: 0px;
+  }
+  
+  .menu ul {
+    top: -15px;
+  }
+  .menu ul li {
+    font-size: 30px;
+    margin: 35px auto;
+  }
+}

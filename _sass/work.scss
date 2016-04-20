@@ -1,0 +1,124 @@
+.section-container {
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.content-container {
+  postion: relative;
+  width: 95%;
+  max-width: 550px;
+  text-align: center;
+  margin: auto;
+}
+
+.home-container {
+  position: relative;
+  width: 95%;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto 15px;
+  z-index: 2;
+}
+
+.description {
+  font-size: .75rem;
+  line-height: 1.25rem;
+}
+
+.learn-container {
+   margin: 0 auto 25px;
+}
+
+.my-mug {
+  background-image: url(../assets/images/matts-mug2.png);
+  background-position: 79%;
+  background-size: cover;
+  min-height: 70%;
+  /*-webkit-filter: blur(3px);
+  filter: url('/media/blur.svg#blur');
+  filter: blur(1px);*/
+}
+
+.know-your-beer-image {
+  background-image: url(../assets/images/knowyourbeer.png);
+  background-position: top;
+  background-size: cover;
+  min-height: 70%;
+}
+
+.venue-template-image {
+  background-image: url(../assets/images/venue-template.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 75%
+}
+
+.pay-crave-image {
+  background-image: url(../assets/images/phone-stack.png);
+  background-position: top;
+  background-size: cover;
+  min-height: 75%
+}
+
+.lil-bubbas-image {
+  background-image: url(../assets/images/lil-bubbas.png);
+  background-position: 72%;
+  background-size: cover;
+  height: 72%; 
+}
+
+@media (orientation:landscape) {
+  .my-mug {
+    background-position: bottom;
+  }
+  .venue-template-image {
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 786px) {
+  
+  .content-container {
+    width: 80%;
+    max-width: 700px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .home-container {
+    position: fixed;
+    top: 115px;
+    left: 35px;
+    width: 50%;
+    max-width: 878px;
+    text-align: left;
+    padding: 0 15px 0 15px;
+    margin: auto;
+    border-radius: 5px;
+    color: $dark-blue;
+}
+  
+  .description {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+  
+  .learn-button {
+    font-size: 1rem;
+    margin: 0 5px 0 5px;
+  }
+  
+  .my-mug {
+    background-position: left;
+    height: 100vh;
+  }
+  
+  .venue-template-image {
+    background-position: 75% 80%;
+  }
+  
+  .lil-bubbas-image {
+    background-position: 100% 15%;
+  }
+}

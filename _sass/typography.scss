@@ -1,0 +1,69 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: $dark-blue;
+}
+
+strong {
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4{
+  font-family: "Playfair Display", serif;
+}
+
+a:visited,
+a {
+  @include transition;
+  text-decoration: none;
+  color: #6bc4ff;
+}
+
+a:hover {
+  color: $highlight;
+}
+
+.large {
+  font-size: 1.7rem;
+}
+
+.home-large {
+  font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  
+  a:visited,
+  a {
+    color: #ECF0F1;
+  }
+  
+  a:hover {
+    color: $highlight;
+  }
+  
+  .large {
+    font-size: 2rem;
+  }
+  
+  .home-large {
+    font-size: 3rem;
+  }
+}
