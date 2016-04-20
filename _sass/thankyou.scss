@@ -1,0 +1,26 @@
+.thank-you {
+  margin-top: 90px;
+}
+
+.wide-btn .learn-button {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.thankyou-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (min-width: 768px) {
+  .thank-you {
+    margin-top: 50px;
+  }
+  
+  .wide-btn .learn-button {
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  
+}
