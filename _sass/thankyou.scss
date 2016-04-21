@@ -3,13 +3,17 @@
 }
 
 .wide-btn .learn-button {
+  display: block;
   width: 90%;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
-.thankyou-image img {
+
+img.centered {
+  display: block;
   width: 100%;
   max-width: 500px;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -19,8 +23,7 @@
   
   .wide-btn .learn-button {
     width: 500px;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin: 30px auto 50px
   }
   
 }

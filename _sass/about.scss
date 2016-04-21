@@ -72,6 +72,9 @@ ul img {
   }
   
   .right-align {
-    display: block;
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    right: 0;
   }
 }

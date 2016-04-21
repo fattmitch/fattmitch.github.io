@@ -30,11 +30,12 @@
   width: 95%;
   margin: 110px auto 0px;
   font-size: 0.8rem;
-  line-height: 1.33rem;
+  
 }
 
 .case-study h1 {
   text-align: center;
+  line-height: 1.9rem
 }
 
 .case-study h2 {
@@ -45,6 +46,7 @@
 
 .case-study p {
   margin-bottom: 20px;
+  line-height: 1.33rem;
 }
 
 .case-study a {
@@ -71,7 +73,7 @@ hr {
 
 .case-study .learn-button {
   width: 50%;
-  margin: auto;
+  margin: 0 25% 0 25%;
   text-align: center;
 }
 
@@ -96,6 +98,9 @@ hr {
     max-width: 843px;
     margin-top: 150px;
     margin-bottom: 0;
+  }
+  
+  .case-study p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
@@ -114,8 +119,8 @@ hr {
   }
   
   .case-study .learn-button {
-    width: 70%;
-    margin: 10px 15% 25px 15%;
+    width: 100%;
+    margin: 10px 0 25px 0;
     text-align: center;
   }
 }
