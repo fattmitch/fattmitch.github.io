@@ -1,13 +1,15 @@
 .about-me-container {
-    width: 100%;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .about-me-image {
-  display: inline-block;
+  display: none;
   background-image: url(../assets/images/about-me-image.png);
   background-position: bottom;
   background-size: cover;
-  min-height: 40vh;
+  background-repeat: no-repeat;
+  min-height: 20vh;
   width: 100%;
 }
 
@@ -16,11 +18,7 @@
   width: 100%;
   padding: 0px 20px 0px 20px; 
   font-size: .75rem;
-  line-height: 1.6rem;
-}
-
-.about-description {
-  line-height: 1.6rem;
+  line-height: 1.2rem;
 }
 
 ul img {
@@ -51,30 +49,35 @@ ul img {
 }
 
 @media (min-width: 768px) {
+  
+  .about-me-container {
+    margin-top: 5px;
+  }
+  
   .about-me-image {
     display: inline-block;
     min-height: 100vh;
-    width: 60%;
+    width: 40%;
   }
   
   .about-me-content {
     display: inline-block;
     vertical-align: top;
-    width: 39%;
+    width: 59%;
     padding: 0px 20px 0px 20px;
-    margin-top: 15px;
-    font-size: 1rem;
-    line-height: 2rem;
+    margin-top: 0px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
   }
   
   .about-logo {
-    max-width: 150px
+    max-width: 120px
   }
   
   .right-align {
     display: inline-block;
     position: absolute;
-    top: 75%;
-    right: 0;
+    top: 83%;
+    right: 10%;
   }
 }
