@@ -36,7 +36,7 @@ After my initial light bulb idea, I knew I had something that could be useful to
 
 !["research"](/assets/images/research.png)
 
-So you can see, it wasn’t a bad idea to build out an online beer database. It seemed like 92% of my buddies would use an app to learn more about the beers they drank.  Next, I needed to do a little **competative analysis** to see if anyone else was already doing this. After compiling data on a few other websites in the space (Beer Advocate, Untapped), I realized that while there were sites out there that were geared more towards rating beers, or socially sharing them with your online fake online friends, no one had a pure beer knowledge base.
+So you can see, it wasn’t a bad idea to build out an online beer database. It seemed like 92% of my buddies would use an app to learn more about the beers they drank.  Next, I needed to do a little **competetive analysis** to see if anyone else was already doing this. After compiling data on a few other websites in the space (Beer Advocate, Untapped), I realized that while there were sites out there that were geared more towards rating beers, or socially sharing them with your fake online friends, no one had a pure beer knowledge base.
 
 Beer Advocate was positioned as more of a beer forum and rating website. More of a community for beer lovers. This wasn’t what Know Your Beer was about.
 
@@ -55,7 +55,7 @@ Now that I had user stories and user flows, it was time to start laying out a de
 
 !["wireframe-home"](/assets/images/kyb-home-wireframe.png)
 
-I kept the search results simple, and moved the search bar to the top of the page so that another search could be performed if the results weren’t what the user was looking for. In the wireframes, I included a description, as well as a small thumbnail image. This was eventually streamlined down into just an thumb nail image, and a few brief details about the beer. Keeping in line with streamline and simple design, I felt that showing an incomplete description on this page was unnesseccary.
+I kept the search results simple, and moved the search bar to the top of the page so that another search could be performed if the results weren’t what the user was looking for. In the wireframes, I included a description, as well as a small thumbnail image. This was eventually streamlined down into just an thumbnail image and a few brief details about the beer. Keeping in line with streamline and simple design, I felt that showing an incomplete description on this page was unnesseccary.
 
 !["wireframe-search-results"](/assets/images/kyb-wireframe-search.png)
 
@@ -91,17 +91,17 @@ Once I had a logo, color pallete, and type face chosen, it was time to start the
 ## The Development
 ---
 
-Once the final mock ups were ready, it was time to start development. First I had to figure out what technology to use for Know Your Beer. I wanted to learn **Angular**, so I decided to start with an Angular front end and **Node.js** backend. Once everything was set up (Angular was bootsrapped to my site, basic views created) the first challenge was to figure out how to get the data I needed. As I saw it, my options were: start from scratch and do primary research to find the data required, hire someone to do that for me, or hook in to an exisiting database and pull that data into Know Your Beer. 
+Once the final mock ups were ready, it was time to start development. First I had to figure out what technology to use for Know Your Beer. I wanted to learn **Angular**, so I decided to start with an Angular frontend and **Node.js** backend. Once everything was set up (Angular was bootsrapped to my site, basic views created) the first challenge was to figure out how to get the data I needed. As I saw it, my options were: start from scratch and do primary research to find the data required, hire someone to do that for me, or hook in to an exisiting database and pull that data into Know Your Beer. 
 
-I decided to initially hook into a an existing database. This allowed for Know Your Beer to be fully functional within a few weeks and I didn’t have to worry about gather data and storing it in a database. The only downside to this approach was that I wasn’t able to control the data. While the beer database I hooked into had a robust amount of data, there were a few data points that I felt are missing (brewery ownership/history). If I have time to do investigative research, I’ll add those datapoints into Know Your Beer, but since the the goal of this project was to have fun and learn something in the process, I wasn’t too bothered.
+I decided to initially hook into a an existing database. This allowed for Know Your Beer to be fully functional within a few weeks and I didn’t have to worry about gathering data and storing it in a database. The only downside to this approach was that I wasn’t able to control the data. While the beer database I hooked into had a robust amount of data, there were a few data points that I felt are missing (brewery ownership/history). If I have time to do investigative research, I’ll add those datapoints into Know Your Beer, but since the goal of this project was to have fun and learn something in the process, I wasn’t too bothered.
 
 The database I hooked into was breweryDB.com. It’s pretty sweet - out of the few beer databases out there, it had the most professional feel and best documentation. It also appeared to be well maintained and had the most amount of endpoints I could connect to. Also, it was free to use (up to a certain amount of lookups per day, but since Know Your Beer was created for fun, that didn’t bother me).
 
-Once I decided on using breweryDB, the first step was to connect to it. One challenge that I ran into is that couldn't connect to BreweryDb from the front end, so I had to use a [nodeJS module](https://www.npmjs.com/package/brewerydb-node) to connect to breweryDB from the back end, however, I need to access more endpoints than what the module provided, so I had to write my own API to get all the data I needed.
+Once I decided on using BreweryDB, the first step was to connect to it. One challenge that I ran into is that I couldn't connect to BreweryDB from the frontend, so I had to use a [nodeJS module](https://www.npmjs.com/package/brewerydb-node) to connect to BreweryDB from the backend, however, I needed to access more endpoints than what the module provided, so I had to write my own API to get all the data I needed.
 
-Once I was able to connect to brewerydb, I think had to post the data to the front end to use **$http** to get access to the data from the front end. After I was able to get the data I needed, I then started populate my pages with data. Using **$scope**, I mapped my endpoints to my data variables and was able to create a dynamically popluted site.
+Once I was able to connect to BreweryDB, I used the Angular **$http** service to get access to the data from the frontend. After I was able to get the data I needed, I then started populate my pages with data. Using **$scope**, I mapped my endpoints to my data variables and was able to create a dynamically populated site.
 
-I then had to work on the search functionality, which the BreweryDB API included, but needed to use **$stateparams** to pass parameters through to different states so that the search would populate with results.
+I then built the search functionality, which the BreweryDB API included, but I needed to use **$stateparams** to pass parameters through to different states so that the search would populate with results.
 
 After I had a functioning search, brewery detail, and beer detail pages, it was time to work on some extra bells and whistles, including a loading screen, conditional statements to handle bad or missing data and a search filter.
 
