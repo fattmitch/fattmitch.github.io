@@ -70,14 +70,15 @@
   left: 50%;
 }
 
+
 @media (min-width: 768px) {
     #nav-icon3 {
         width: 35px;
-        height: 30px;
+        height: 24px;
     }
     
     #nav-icon3 span {
-        height: 3px;
+        height: 4px;
     }
     
     #nav-icon3 span:nth-child(1) {
@@ -85,17 +86,11 @@
     }
 
     #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-        top: 11px;
+        top: 10px;
     }
 
 
     #nav-icon3 span:nth-child(4) {
-        top: 22px;
-    }
-    
-    .menu-button-container {
-        position: fixed;
-        right: 30px;
-        top: 25px;
+        top: 20px;
     }
 }

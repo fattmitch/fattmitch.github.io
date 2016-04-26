@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Lil Bubba's Design Project
-description: An e-commerce site designed for my wife's baby bows brand. Work included responsive site design.
+description: An e-commerce site designed for my wife's baby bows brand. Work included wireframing, font-selection, and responsive site design.
 feature-image: lil-bubbas-image
 link: lil-bubbas
 anchor: lil-bubbas

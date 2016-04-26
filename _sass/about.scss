@@ -9,8 +9,13 @@
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 20vh;
   width: 100%;
+}
+
+.circle-img {
+  float: left;
+  height: 100px;
+  margin-right: 10px;
 }
 
 .about-me-content {
@@ -26,16 +31,6 @@ ul img {
   position: relative;
   top: 7px;
   margin-right: 10px;
-}
-
-.about-logo {
-  max-width: 100px
-}
-
-.right-align {
-  display: none;
-  text-align: right;
-  padding-right: 15px;
 }
 
 @media (orientation: landscape) {
@@ -65,19 +60,12 @@ ul img {
     vertical-align: top;
     width: 59%;
     padding: 0px 20px 0px 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     font-size: 1.1rem;
     line-height: 1.8rem;
   }
   
-  .about-logo {
-    max-width: 120px
-  }
-  
-  .right-align {
-    display: inline-block;
-    position: absolute;
-    top: 83%;
-    right: 10%;
+  .circle-img {
+    display: none;
   }
 }

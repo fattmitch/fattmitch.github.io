@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Know Your Beer
-description: The quick and easy online beer encyclopedia. Work includes logo creation, branding, photography, UX/UI design, prototyping. Build with the AngularJS framework.
+description: The quick and easy online beer encyclopedia. Work included logo creation, branding, UX/UI design, prototyping, and development. Built with the AngularJS framework.
 feature-image: know-your-beer-image
 link: /know-your-beer
 links:
