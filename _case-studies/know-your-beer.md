@@ -95,6 +95,8 @@ Once the final mockups were ready, it was time to start development. First I had
 
 I decided to initially hook into a an existing database. This allowed for Know Your Beer to be fully functional within a few weeks and I didn’t have to worry about gathering data and storing it in a database. The only downside to this approach was that I wasn’t able to control the data. While the beer database I hooked into had a robust amount of data, there were a few data points that I felt are missing (brewery ownership/history). If I have time to do investigative research, I’ll add those datapoints into Know Your Beer, but since the goal of this project was to have fun and learn something in the process, I wasn’t too bothered.
 
+!["echnology-stack"](/assets/images/techstack.png)
+
 The database I hooked into was BreweryDB.com. It’s pretty sweet - out of the few beer databases out there, it had the most professional feel and best documentation. It also appeared to be well maintained and had the most amount of endpoints I could connect to. Also, it was free to use (up to a certain amount of lookups per day, but since Know Your Beer was created for fun, that didn’t bother me either).
 
 Once I decided on using BreweryDB, the first step was to connect to it. One challenge that I ran into is that I couldn't connect to BreweryDB from the frontend, so I had to use a [nodeJS module](https://www.npmjs.com/package/brewerydb-node) to connect to BreweryDB from the backend, however, I needed to access more endpoints than what the module provided, so I had to write my own API to get all the data I needed.
