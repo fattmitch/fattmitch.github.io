@@ -31,13 +31,6 @@ $highlight: #14A1FF;
 
 @import 'buttons';
 
-@media (min-width: 992px) {
-  
-}
-
-@media (min-width: 1440px) {
-  
-}
 
 /* ABOUT */
 
@@ -55,7 +48,12 @@ $highlight: #14A1FF;
 
 @import 'thankyou';
 
+/* RESUME */
+
+@import 'resume';
+
 
 /* MENU ICON */
 
 @import 'menu-icon';
+
