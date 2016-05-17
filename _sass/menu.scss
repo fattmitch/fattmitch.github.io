@@ -49,6 +49,10 @@
   color: $dark-blue;
 }
 
+.menu ul li.sub-menu{
+  font-size: 15px;
+}
+
 @media (min-width: 768px) {
   .menu {
       width: 25%;
@@ -71,6 +75,9 @@
     position: fixed;
     right: 30px;
     top: 25px;
-}
+  }
   
+  .menu ul li.sub-menu {
+    font-size: 20px;
+  }
 }

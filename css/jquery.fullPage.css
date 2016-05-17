@@ -80,7 +80,7 @@ html.fp-enabled,
     -moz-transition: all 200ms ease; /* Firefox */
     -ms-transition: all 200ms ease; /* IE 9 */
     -o-transition: all 200ms ease; /* Opera */
-    transition: all 200ms ease;
+    transition: all 200ms ease;    
 }
 
 .fp-controlArrow:hover {
