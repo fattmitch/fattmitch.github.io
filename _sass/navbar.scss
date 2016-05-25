@@ -9,6 +9,10 @@
   z-index: 1;
 }
 
+.navbar a:hover:before {
+  visibility: hidden;
+}
+
 .logo {
   display: inline-block;
   max-width: 95px;

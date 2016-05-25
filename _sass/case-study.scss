@@ -26,6 +26,11 @@
   color: $highlight;
 }
 
+.next a:hover:before,
+.back a:hover:before {
+  visibility: hidden;
+}
+
 .case-study {
   width: 95%;
   margin: 110px auto 0px;

@@ -30,14 +30,15 @@
    margin: 0 auto 25px;
 }
 
+.learn-container a:hover:before {
+  visibility: hidden;
+}
+
 .my-mug {
   background-image: url(../assets/images/matts-mug2.png);
-  background-position: 79%;
+  background-position: 92%;
   background-size: cover;
   min-height: 70%;
-  /*-webkit-filter: blur(3px);
-  filter: url('/media/blur.svg#blur');
-  filter: blur(1px);*/
 }
 
 .know-your-beer-image {
@@ -70,7 +71,9 @@
 
 @media (orientation:landscape) {
   .my-mug {
-    background-position: bottom;
+    background-position: 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .venue-template-image {
     background-position: bottom;

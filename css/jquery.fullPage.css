@@ -165,6 +165,10 @@ html.fp-enabled,
     cursor: pointer;
     text-decoration: none;
 }
+#fp-nav ul li a:hover:before,
+.fp-slidesNav ul li a:hover:before {
+  visibility: hidden;
+}
 #fp-nav ul li a.active span,
 #fp-nav ul li:hover a.active span {
     height: 12px;
