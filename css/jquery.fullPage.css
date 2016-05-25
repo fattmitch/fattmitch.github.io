@@ -144,17 +144,20 @@ html.fp-enabled,
   margin: 0;
   padding: 0;
 }
+
 #fp-nav ul li,
 .fp-slidesNav ul li {
-    display: block;
-    width: 14px;
-    height: 14px;
-    margin: 7px;
-    position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 7px;
+  position: relative;
 }
+
 .fp-slidesNav ul li {
     display: inline-block;
 }
+
 #fp-nav ul li a,
 .fp-slidesNav ul li a {
     display: block;
@@ -164,6 +167,7 @@ html.fp-enabled,
     height: 100%;
     cursor: pointer;
     text-decoration: none;
+    color: #ECF0F1;
 }
 #fp-nav ul li a:hover:before,
 .fp-slidesNav ul li a:hover:before {
