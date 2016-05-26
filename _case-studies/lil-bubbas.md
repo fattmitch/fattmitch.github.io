@@ -49,7 +49,7 @@ I wanted something playful yet elegant for Little Bubba's Bows header font so I 
 
 Once I had the fonts selected, it was time to start creating mockups in Sketch. If you'd like to see a working prototype use the button below:
 
-<div>
+<div class="case-button">
   <a href="https://invis.io/WV4YF3OHD#/115089785_Home_Page_Slide_2" target="_blank">
     <div class="learn-button">Visit The Lil Bubba's InVision Prototype</div>
   </a>
