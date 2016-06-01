@@ -1,6 +1,6 @@
 .contact-left {
   width: 95%;
-  margin: auto;
+  margin: -15px auto 0;
   text-align: center;
 }
 
@@ -85,10 +85,6 @@ input[type=submit]:hover {
     height: 100px;
   }
   
-  .large {
-    margin-bottom: 0.4rem;
-  }
-  
   input[type=submit] {
     margin: 10px 0 25px;
   }
@@ -109,6 +105,10 @@ input[type=submit]:hover {
     margin-top: 10px;
     margin-left: 8%;
     text-align: left;
+  }
+  
+  .contact-form {
+    margin-top: -10px;
   }
 
   .contact-right {
