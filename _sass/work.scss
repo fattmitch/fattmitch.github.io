@@ -69,6 +69,15 @@
   height: 72%; 
 }
 
+.death-of-the-pressbox-image {
+  background-image: url(../assets/images/deathofthepressboxmobile.png);
+  background-position: center top;
+  background-size: cover;
+  min-height: 75%;
+  
+  
+}
+
 @media (orientation:landscape) {
   .my-mug {
     background-position: 55%;
@@ -76,6 +85,11 @@
     background-repeat: no-repeat;
   }
   .venue-template-image {
+    background-position: bottom;
+  }
+  
+  .death-of-the-pressbox-image {
+    background-image: url(../assets/images/deathofthepressbox.png);
     background-position: bottom;
   }
 }
@@ -122,5 +136,16 @@
   
   .lil-bubbas-image {
     background-position: 100% 15%;
+  }
+  
+  .death-of-the-pressbox-image {
+  min-height: 57%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .death-of-the-pressbox-image {
+    background-image: url(../assets/images/deathofthepressboxlarge.png);
+    min-height: 65%;
   }
 }

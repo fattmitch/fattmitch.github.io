@@ -8,7 +8,7 @@ links:
   - text: Visit Site
     link: http://knowyourbeer.herokuapp.com
 anchor: know-your-beer
-date: 01/01/16
+date: 01/02/16
 ---
 
 # Project: Know Your Beer
