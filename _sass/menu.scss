@@ -29,8 +29,8 @@
 
 .menu-button-container {
   position: fixed;
-  right: 17px;
-  top: 20px;
+  right: 15px;
+  top: 15px;
   z-index: 201;
 }
 
@@ -58,11 +58,11 @@
       width: 25%;
       right: -25%;
   }
-    
+
   .show {
     right: 0px;
   }
-  
+
   .menu ul {
     top: -15px;
   }
@@ -70,13 +70,13 @@
     font-size: 30px;
     margin: 35px auto;
   }
-  
+
   .menu-button-container {
     position: fixed;
-    right: 30px;
-    top: 25px;
+    right: 20px;
+    top: 20px;
   }
-  
+
   .menu ul li.sub-menu {
     font-size: 20px;
   }

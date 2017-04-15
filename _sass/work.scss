@@ -1,7 +1,7 @@
 .section-container {
   height: 100vh;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .content-container {
@@ -66,21 +66,21 @@
   background-image: url(../assets/images/lil-bubbas.png);
   background-position: 72%;
   background-size: cover;
-  height: 72%; 
+  height: 72%;
 }
 
 .death-of-the-pressbox-image {
   background-image: url(../assets/images/deathofthepressboxmobile.png);
   background-position: center top;
   background-size: cover;
-  min-height: 65%; 
+  min-height: 65%;
 }
 
 .burgundy-upholstery-sky-image {
   background-image: url(../assets/images/burgundymobile.png);
   background-position: center top;
   background-size: cover;
-  min-height: 65%; 
+  min-height: 65%;
 }
 
 @media (orientation:landscape) {
@@ -92,12 +92,12 @@
   .venue-template-image {
     background-position: bottom;
   }
-  
+
   .death-of-the-pressbox-image {
     background-image: url(../assets/images/deathofthepressbox.png);
     background-position: bottom;
   }
-  
+
   .burgundy-upholstery-sky-image {
     background-image: url(../assets/images/burgundy.png);
     background-position: bottom;
@@ -105,14 +105,18 @@
 }
 
 @media (min-width: 786px) {
-  
+
   .content-container {
     width: 80%;
     max-width: 700px;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  
+
+  .section-container {
+    padding-top: 0px;
+  }
+
   .home-container {
     position: fixed;
     top: 115px;
@@ -125,33 +129,34 @@
     border-radius: 5px;
     color: $dark-blue;
 }
-  
+
   .description {
     font-size: 1rem;
     line-height: 2rem;
 }
-  
+
   .learn-button {
     font-size: 1rem;
     margin: 0 5px 0 5px;
   }
-  
+
   .my-mug {
     height: 100vh;
+
   }
-  
+
   .venue-template-image {
     background-position: 75% 80%;
   }
-  
+
   .lil-bubbas-image {
     background-position: 100% 15%;
   }
-  
+
   .death-of-the-pressbox-image {
   min-height: 57%;
   }
-  
+
   .burgundy-upholstery-sky-image {
     min-height: 57%;
   }
@@ -162,7 +167,7 @@
     background-image: url(../assets/images/deathofthepressboxlarge.png);
     min-height: 65%;
   }
-  
+
     .burgundy-upholstery-sky-image {
       background-image: url(../assets/images/burgundylarge.png);
       min-height: 65%;

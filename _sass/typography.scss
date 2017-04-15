@@ -23,8 +23,8 @@ h1,
 h2,
 h3,
 h4{
-  font-family: 'Josefin Slab', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  character-spacing: 1.5px;
 }
 
 a:visited,
@@ -54,17 +54,17 @@ a:hover {
   html {
     font-size: 18px;
   }
-  
+
   a:visited,
   a {
     position: relative;
     color: $highlight;
   }
-  
+
   a:hover {
     color: $highlight;
   }
-  
+
   a:before {
     content: "";
     position: absolute;
@@ -76,14 +76,14 @@ a:hover {
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
-    -o-transform: scaleX(0);    
+    -o-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
+
   a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
@@ -91,19 +91,19 @@ a:hover {
     -o-transform: scaleX(1);
     transform: scaleX(1);
   }
-  
+
   .large {
     font-size: 2rem;
   }
-  
+
   .home-large {
     font-size: 3rem;
   }
-  
+
   .large-about {
     font-size: 1.7rem;
   }
-  
+
   .center {
     text-align: center;
 }

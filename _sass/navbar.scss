@@ -3,9 +3,7 @@
   top: 0;
   width: 100%;
   display: block;
-  background-color: $dark-blue;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 10px 0px 0px 10px;
   z-index: 1;
 }
 
@@ -15,7 +13,7 @@
 
 .logo {
   display: inline-block;
-  max-width: 95px;
+  max-width: 75px;
 }
 
 .logo .nav-logo {
@@ -23,22 +21,13 @@
   vertical-align: middle;
 }
 
-.navbar .nav-container {
-  display: none;
-}
-
-.nav-container .my-title {
-  color: #ECF0F1;
-  font-size: 0.75rem
-}
-
 @media (min-width: 786px) {
-  
-  .navbar .nav-container {
-    display: inline-block;
+
+  .navbar {
+  padding: 10px 0 0 30px;
   }
-  
+
   .logo {
-    max-width: 135px;
+    max-width: 100px;
   }
 }
