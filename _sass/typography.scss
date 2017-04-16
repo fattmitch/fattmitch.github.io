@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 300;
-  color: $dark-blue;
+  color: $black;
 }
 
 strong {
@@ -23,8 +23,9 @@ h1,
 h2,
 h3,
 h4{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Sorts Mill Goudy', serif;
   character-spacing: 1.5px;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
@@ -107,5 +108,5 @@ a:hover {
 
   .center {
     text-align: center;
-}
+  }
 }
