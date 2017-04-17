@@ -3,70 +3,68 @@ layout: default
 title: Matt Fitch - UI Designer
 ---
 
-<div id="fullpage">
-  <div class="section section-container" data-anchor="top">
-    <div class="home-container">
-        <h1 class="home-large">I'm Matt. Nice to Meet You!</h1>
-        <p class="description">I like helping people. For a decade, I helped people as an account manager/project manager/customer support manager. Now, I'm helping people as a <strong>UX/UI designer &amp; developer</strong>.<br><br>Please feel free to help yourself to my work below or <a href="#contact">get in touch</a>.
-      </div>
-    <div class="my-mug"></div>          
+<div class="section-container" data-anchor="top">
+  <div class="home-container">
+    <h1 class="home-large">I'm Matt. Nice to Meet You!</h1>
+    <p class="description">I like helping people. For a decade, I helped people as an account manager/project manager/customer support manager. Now, I'm helping people as a <strong>UX/UI designer &amp; developer</strong>.<br><br>Please feel free to help yourself to my work below or <a href="#contact">get in touch</a>.
   </div>
-  <div class="section" data-anchor="work">
-    {% assign work = site.case-studies | sort: 'date' %}
-    {% for project in work %}
-    <div class="slide section-container" data-anchor="{{ project.anchor }}">
-      <div class="content-container">
-        <div class="project-info">
-          <h1 class="large">{{ project.title }}</h1>
-        </div>
-        <div class="project-description">
-          <p class="description">{{ project.description }}</p>
-        </div>
-        <div class="learn-container">
-          <a href=" {{ project.link }}">
-            <div class="learn-button">
-              Learn More About It
-            </div>
-          </a>
-          {% for link in project.links %}
-          <a href="{{ link.link }}" target="_blank">
-            <div class="learn-button">
-              {{ link.text }}
-            </div>
-          </a>
-          {% endfor %}
-        </div>
+  <div class="my-mug"></div>
+</div>
+<div id="work">
+  {% assign work = site.case-studies | sort: 'date' %}
+  {% for project in work %}
+  <div class="section-container" id="{{ project.anchor }}">
+    <div class="content-container">
+      <div class="project-info">
+        <h1 class="large">{{ project.title }}</h1>
       </div>
-      <div class="{{ project.feature-image }}"></div>
+      <div class="project-description">
+        <p class="description">{{ project.description }}</p>
+      </div>
+      <div class="learn-container">
+        <a href=" {{ project.link }}">
+          <div class="learn-button">
+            Learn More About It
+          </div>
+        </a>
+        {% for link in project.links %}
+        <a href="{{ link.link }}" target="_blank">
+          <div class="learn-button">
+            {{ link.text }}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
     </div>
-    {% endfor %}
+    <div class="{{ project.feature-image }}"></div>
   </div>
-  <div class="section section-container" data-anchor="about">
-    <div class="about-me-container">
-      <div class="about-me-image"></div>
-      <div class="about-me-content">
-        <img class="circle-img" src="/assets/images/circle-headshot.png" alt="circle mug">
-        <div class="about-description-container">
-          <h1 class="large center">My Story</h1>
-          <p>Fresh out of college with a BS in Business Administration from Cal Poly, I ended up taking a customer service job for a local e-commerce company. Over the next six years I had worked my way onto the project management, operations, and account management teams (I even got to spend a little time overseas managing a multi-lingual call center). I was able to spend 7 quality years perfecting the art of client services, but...</p><p> I wasn't in love with my career so I decided to pursue a new path. I wasn't sure what I wanted to do so I started thinking... what do I love?</p><p>I love critical thinking, I love creativity. I love making things work. I love building things. I love to simplify things, and most importantly, I love to have fun. From my previous work experience, I observed that web designers could check the box on all of those things. So after much thought, and the birth of my second daughter, I decided to drop it all and go back to school fulltime to learn the way of the front end web dev. And now that I've completed my training, I'm excited to be helping people once more.</p><p>So, if you need help with <strong>UI/UX, wireframing, mockups, html5/css3, JavaScript, jQuery, Angular,</strong> or anything else web-related, please get in touch!</p>
-        </div>
+  {% endfor %}
+</div>
+<div class="section-container" id="about">
+  <div class="about-me-container about-me-image">
+    <div class="about-me-content">
+      <img class="circle-img" src="/assets/images/circle-headshot.png" alt="circle mug">
+      <div class="about-description-container">
+        <h1 class="large center">My Story</h1>
+        <p>Fresh out of college with a BS in Business Administration from Cal Poly, I ended up taking a customer service job for a local e-commerce company. Over the next six years I had worked my way onto the project management, operations, and account management teams (I even got to spend a little time overseas managing a multi-lingual call center). I was able to spend 7 quality years perfecting the art of client services, but...</p><p> I wasn't in love with my career so I decided to pursue a new path. I wasn't sure what I wanted to do so I started thinking... what do I love?</p><p>I love critical thinking, I love creativity. I love making things work. I love building things. I love to simplify things, and most importantly, I love to have fun. From my previous work experience, I observed that web designers could check the box on all of those things. So after much thought, and the birth of my second daughter, I decided to drop it all and go back to school fulltime to learn the way of the front end web dev. And now that I've completed my training, I'm excited to be helping people once more.</p><p>So, if you need help with <strong>UI/UX, wireframing, mockups, html5/css3, JavaScript, jQuery, Angular,</strong> or anything else web-related, please get in touch!</p>
       </div>
     </div>
   </div>
-  <div class="section section-container contact" data-anchor="contact">
+</div>
+  <div class="section-container contact" id="contact">
     <div class="contact-left">
-    <h1 class="large">Want to get in touch?</h1>
-    <div class="contact-form">
-      <form action="https://getsimpleform.com/messages?form_api_token=f7bb1dc7d2fe3dbb67770c5b6adffb52" method="post">
+      <h1 class="large">Want to get in touch?</h1>
+      <div class="contact-form">
+        <form action="https://getsimpleform.com/messages?form_api_token=f7bb1dc7d2fe3dbb67770c5b6adffb52" method="post">
         <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='http://mattfit.ch/thank-you' />
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="text" name="email" placeholder="Email" required>
-        <input type="text" name="phone" placeholder="Phone Number">
-        <textarea name="comments" placeholder="How can I help?" required></textarea>
-        <input class="full" type="submit" value="Send It!">
-    </form>
-    </div>
+          <input type='hidden' name='redirect_to' value='http://mattfit.ch/thank-you' />
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="email" placeholder="Email" required>
+          <input type="text" name="phone" placeholder="Phone Number">
+          <textarea name="comments" placeholder="How can I help?" required></textarea>
+          <input class="full" type="submit" value="Send It!">
+        </form>
+      </div>
     </div>
     <div class="contact-right">
     <div class="contact-chunk">
@@ -82,5 +80,3 @@ title: Matt Fitch - UI Designer
     <div class="contact-logo">
     </div>
   </div>
-  
-</div>

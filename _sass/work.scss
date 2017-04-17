@@ -5,7 +5,7 @@
 }
 
 .content-container {
-  postion: relative;
+  position: relative;
   width: 95%;
   max-width: 550px;
   text-align: center;
@@ -118,7 +118,7 @@
   }
 
   .home-container {
-    position: fixed;
+    position: absolute;
     top: 115px;
     left: 35px;
     width: 50%;
@@ -142,7 +142,6 @@
 
   .my-mug {
     height: 100vh;
-
   }
 
   .venue-template-image {
