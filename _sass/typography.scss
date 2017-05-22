@@ -52,6 +52,24 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.home-beach p {
+  color: $grey;
+  font-size: 1.5rem;
+  line-height: 5.33rem;
+  font-weight: 200;
+  font-style: italic;
+  text-align: left;
+}
+
+cite {
+  display: inherit;
+  width: 100%;
+  color: $grey;
+  text-align: right;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 18px;

@@ -38,7 +38,43 @@
   background-image: url(../assets/images/matts-mug2.png);
   background-position: 92%;
   background-size: cover;
-  min-height: 70%;
+  height: 70%;
+}
+
+.home-beach {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  height: 100%;
+  background: #6E8FB0;
+  padding: 0px 30px;
+  margin-left: 20px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+  text-align: center;
+}
+
+.home-beach:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.inspirational-quote {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.inspirational-quote:before {
+  content: url(../assets/images/quotes.svg);
+  position: absolute;
+  left: 14%;
 }
 
 .know-your-beer-image {
@@ -119,7 +155,7 @@
 
   .home-container {
     position: absolute;
-    top: 115px;
+    top: 80px;
     left: 35px;
     width: 50%;
     max-width: 878px;
@@ -130,9 +166,12 @@
     color: $black;
 }
 
+
   .description {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 2.11rem;
+    letter-spacing: 0.5;
 }
 
   .learn-button {
@@ -162,6 +201,20 @@
 }
 
 @media (min-width: 1100px) {
+
+  .my-mug {
+    position: absolute;
+    bottom: 0px;
+    height: 40vh;
+    width: 55.5%;
+    -webkit-clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+  }
+
+  .home-beach {
+    display: inline-block;
+  }
+
   .death-of-the-pressbox-image {
     background-image: url(../assets/images/deathofthepressboxlarge.png);
     min-height: 65%;
