@@ -56,11 +56,24 @@
   text-align: center;
 }
 
+// Allows for home-beach content to be vertically aligned center
 .home-beach:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
+}
+
+.home-beach:after {
+  content: '';
+  background-image: url(../assets/images/overlay.png);
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -90;
 }
 
 .inspirational-quote {
@@ -75,6 +88,17 @@
   content: url(../assets/images/quotes.svg);
   position: absolute;
   left: 14%;
+}
+
+.video-background {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width:auto;
+  height: auto;
+  z-index: -100;
 }
 
 .know-your-beer-image {
