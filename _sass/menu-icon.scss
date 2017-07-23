@@ -11,6 +11,7 @@
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
+
 }
 
 #nav-icon3 span {
@@ -22,6 +23,7 @@
   border-radius: 7px;
   opacity: 1;
   left: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -73,12 +75,12 @@
 
 @media (min-width: 768px) {
     #nav-icon3 {
-        width: 25px;
-        height: 15px;
+        width: 30px;
+        height: 20px;
     }
 
     #nav-icon3 span {
-        height: 3px;
+        height: 4px;
     }
 
     #nav-icon3 span:nth-child(1) {
@@ -86,12 +88,12 @@
     }
 
     #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-        top: 6px;
+        top: 8px;
     }
 
 
     #nav-icon3 span:nth-child(4) {
-        top: 12px;
+        top: 16px;
     }
 }
 

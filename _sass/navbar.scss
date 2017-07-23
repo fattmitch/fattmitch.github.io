@@ -27,6 +27,19 @@
   padding: 10px 0 0 30px;
   }
 
+  .navbar:before {
+      content:" ";
+      width: 0;
+      height: 0;
+      position: fixed;
+      right: -12px;
+      top: -52px;
+      border-top: 80px solid transparent;
+      border-bottom: 80px solid transparent;
+      border-left: 80px solid #333;
+      transform:rotate(-45deg);
+  }
+
   .logo {
     max-width: 100px;
   }
