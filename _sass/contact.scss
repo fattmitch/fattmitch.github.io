@@ -54,7 +54,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid $highlight;  
+  border: 1px solid $red;
   background-color: #fff;
 }
 
@@ -71,7 +71,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: $highlight;
+    background-color: $red;
 }
 
 @media (orientation: landscape) {
@@ -79,20 +79,20 @@ input[type=submit]:hover {
     font-size: .75rem;
     height: 1.5rem;
   }
-  
+
   textarea {
     font-size: .75rem;
     height: 100px;
   }
-  
+
   input[type=submit] {
     margin: 10px 0 25px;
   }
-  
+
   .contact-right {
     display: none;
   }
-  
+
   .contact {
     background-image: none;
   }
@@ -106,7 +106,7 @@ input[type=submit]:hover {
     margin-left: 8%;
     text-align: left;
   }
-  
+
   .contact-form {
     margin-top: -10px;
   }
@@ -116,7 +116,7 @@ input[type=submit]:hover {
     width: 35%;
     margin: 108px 0 0 25px;
   }
-  
+
   input {
     font-size: 1.1rem;
     margin-top: 25px;
@@ -133,13 +133,13 @@ input[type=submit]:hover {
     padding: 14px 20px;
     margin: 20px 0;
   }
-  
+
   .contact {
     background-image: url(../assets/images/red-logo-opacity-02.png);
     background-size: 40%;
     background-position: 95% 90%;
   }
-  
+
   .contact-chunk {
     font-size: 1rem;
     line-height: 1.6;

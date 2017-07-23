@@ -33,11 +33,11 @@ a:visited,
 a {
   @include transition;
   text-decoration: none;
-  color: #6bc4ff;
+  color: $red;
 }
 
 a:hover {
-  color: $highlight;
+  color: $red;
 }
 
 .large {
@@ -78,11 +78,11 @@ cite {
   a:visited,
   a {
     position: relative;
-    color: $highlight;
+    color: $red;
   }
 
   a:hover {
-    color: $highlight;
+    color: $red;
   }
 
   a:before {
@@ -92,7 +92,7 @@ cite {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: $highlight;
+    background-color: $red;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);

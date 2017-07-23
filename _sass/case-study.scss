@@ -23,7 +23,7 @@
 
 .next a:hover,
 .back a:hover {
-  color: $highlight;
+  color: $red;
 }
 
 .next a:hover:before,
@@ -35,7 +35,7 @@
   width: 95%;
   margin: 110px auto 0px;
   font-size: 0.8rem;
-  
+
 }
 
 .case-study h1 {
@@ -55,7 +55,7 @@
 }
 
 .case-study a {
-  color: $highlight;
+  color: $red;
 }
 
 hr {
@@ -87,48 +87,48 @@ hr {
 }
 
 @media (min-width: 768px) {
-  
+
   .back {
     position: fixed;
     top: 80px;
     left: 30px;
     padding-top: 10px
   }
-  
+
   .next {
     position: fixed;
     top: 80px;
     right: 30px;
     padding-top: 10px
   }
-  
+
   .case-study {
     max-width: 843px;
     margin-top: 150px;
     margin-bottom: 0;
   }
-  
+
   .case-study p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
-  
+
   .case-study h1 {
     font-size: 2rem;
   }
-  
+
   .case-study h2 {
     margin-top: 40px;
     font-size: 1.6rem;
   }
-  
+
   hr {
     height: 2px;
   }
-  
+
   .case-study .learn-button {
-    
+
     margin: 15px 25% 15px 25%;
-    
+
   }
 }
