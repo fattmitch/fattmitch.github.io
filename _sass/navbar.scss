@@ -36,8 +36,9 @@
       top: -52px;
       border-top: 80px solid transparent;
       border-bottom: 80px solid transparent;
-      border-left: 80px solid #333;
-      transform:rotate(-45deg);
+      border-left: 80px solid #E74C3C;
+      transform: rotate(-45deg);
+      box-shadow: -2px 0px 10px 0px rgba(0,0,0,0.25);
   }
 
   .logo {

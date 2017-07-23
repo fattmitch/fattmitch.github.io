@@ -23,7 +23,6 @@
   border-radius: 7px;
   opacity: 1;
   left: 0;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -94,14 +93,5 @@
 
     #nav-icon3 span:nth-child(4) {
         top: 16px;
-    }
-}
-
-@media (min-width: 1100px) {
-    #nav-icon3 span {
-      background: #fff;
-    }
-    #nav-icon3.open span{
-      background: #333;
     }
 }
