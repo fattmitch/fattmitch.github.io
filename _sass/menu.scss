@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   right: -50%;
-  background: rgba(255, 255, 255, 0.99);
+  background: $black;
   font-family: 'Sorts Mill Goudy', serif;
   font-weight: 600;
   -webkit-transition: right 400ms ease-in-out;
@@ -47,7 +47,7 @@
 }
 
 .menu ul li a {
-  color: $black;
+  color: #fff;
 }
 
 .menu ul li.sub-menu{
