@@ -13,6 +13,11 @@
   -o-transition: right 400ms ease-in-out;
   transition: right 400ms ease-in-out;
   z-index: 200;
+
+  img {
+    width: 70%;
+    margin-top: 50px;
+  }
 }
 
 .menu .active a {
@@ -58,6 +63,7 @@
   .menu {
       width: 25%;
       right: -25%;
+      padding-top: 80px;
   }
 
   .show {
@@ -68,8 +74,8 @@
     //top: -15px;
   }
   .menu ul li {
-    font-size: 30px;
-    margin: 35px auto;
+    font-size: 40px;
+    margin: 0 auto 50px;
   }
 
   .menu-button-container {

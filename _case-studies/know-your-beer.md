@@ -9,6 +9,7 @@ links:
     link: http://knowyourbeer.herokuapp.com
 anchor: know-your-beer
 date: 01/03/16
+image: /assets/images/knowyourbeer.png
 ---
 
 # Project: Know Your Beer
@@ -70,7 +71,7 @@ Lastly, I wanted the brewery detail page to feature a description about the brew
 ## The Design Phase
 ---
 
-Now that I had my wireframes, it was time to develop a **brand guide** for Know Your Beer. I needed a color palette, logo, and web-fonts. I started the font selection process by sifting through **Google Fonts** (I like free things). I ended up chosing Montserrat for my headers because I liked how readable, bold and concise it was. For the body I chose Open Sans. In a search and learn application, readability is key, and I feel like Open Sans is one of the most readable fonts on the web. 
+Now that I had my wireframes, it was time to develop a **brand guide** for Know Your Beer. I needed a color palette, logo, and web-fonts. I started the font selection process by sifting through **Google Fonts** (I like free things). I ended up chosing Montserrat for my headers because I liked how readable, bold and concise it was. For the body I chose Open Sans. In a search and learn application, readability is key, and I feel like Open Sans is one of the most readable fonts on the web.
 
 I used Abode Kuler to pick a general color scheme. Obviously, the color had to be associated with beer, but it was challenging finding a palette that worked with brown. In the end, the golden yellow <span class="yellow">(#FFB73E)</span> I found seemed to fit nicely with the medium brown that I associated with beer.
 
@@ -91,7 +92,7 @@ Once I had a logo, color palette, and fonts chosen, it was time to start produci
 ## The Development
 ---
 
-Once the final mockups were ready, it was time to start development. First I had to figure out what technology to use for Know Your Beer. I wanted to learn **Angular**, so I decided to start with an Angular frontend and **Node.js** backend. Once everything was set up (Angular was bootsrapped to my site, basic views created) the first challenge was to figure out how to get the data I needed. As I saw it, my options were: start from scratch and do primary research to find the data required, hire someone to do that for me, or hook in to an existing database and pull that data into Know Your Beer. 
+Once the final mockups were ready, it was time to start development. First I had to figure out what technology to use for Know Your Beer. I wanted to learn **Angular**, so I decided to start with an Angular frontend and **Node.js** backend. Once everything was set up (Angular was bootsrapped to my site, basic views created) the first challenge was to figure out how to get the data I needed. As I saw it, my options were: start from scratch and do primary research to find the data required, hire someone to do that for me, or hook in to an existing database and pull that data into Know Your Beer.
 
 I decided to initially hook into a an existing database. This allowed for Know Your Beer to be fully functional within a few weeks and I didn’t have to worry about gathering data and storing it in a database. The only downside to this approach was that I wasn’t able to control the data. While the beer database I hooked into had a robust amount of data, there were a few data points that I felt are missing (brewery ownership/history). If I have time to do investigative research, I’ll add those datapoints into Know Your Beer, but since the goal of this project was to have fun and learn something in the process, I wasn’t too bothered.
 
@@ -108,6 +109,3 @@ I then built the search functionality, which the BreweryDB API included, but I n
 After I had a functioning search, brewery detail, and beer detail pages, it was time to work on some extra bells and whistles, including a loading screen, conditional statements to handle bad or missing data and a search filter.
 
 Everything was looking nice, it was time to test, make corrections and deploy. To see the end result click <a href="http://knowyourbeer.herokuapp.com" target="_blank">here</a>.
-
-
-

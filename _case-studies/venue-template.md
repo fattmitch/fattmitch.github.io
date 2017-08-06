@@ -10,6 +10,7 @@ links:
 anchor: venue-template
 date: 02/01/16
 button: learn-button
+image: /assets/images/combo-weddingvenue.png
 ---
 
 # Project: Wedding Venue Template

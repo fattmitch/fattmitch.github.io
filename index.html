@@ -20,34 +20,40 @@ title: Matt Fitch - UI Designer
   </div>
 </div>
 <div id="work">
-  {% assign work = site.case-studies | sort: 'date' %}
-  {% for project in work %}
-  <div class="section-container" id="{{ project.anchor }}">
-    <div class="content-container">
-      <div class="project-info">
-        <h1 class="large">{{ project.title }}</h1>
-      </div>
-      <div class="project-description">
-        <p class="description">{{ project.description }}</p>
-      </div>
-      <div class="learn-container">
-        <a href=" {{ project.link }}">
-          <div class="learn-button">
-            Learn More About It
-          </div>
-        </a>
-        {% for link in project.links %}
-        <a href="{{ link.link }}" target="_blank">
-          <div class="learn-button">
-            {{ link.text }}
-          </div>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="{{ project.feature-image }}"></div>
+  <div class="work-intro">
+    <h1 class="large">Some of my Work</h1>
   </div>
+  <div class="work-container">
+    {% assign work = site.case-studies | sort: 'date' %}
+    {% for project in work %}
+    <div class="section-container" id="{{ project.anchor }}">
+      <div class="content-container">
+        <div class="project-info">
+          <h2>{{ project.title }}</h1>
+        </div>
+        <div class="project-description">
+          <p class="description">{{ project.description }}</p>
+        </div>
+        <div class="learn-container">
+          <a href=" {{ project.link }}">
+            <div class="learn-button">
+              Learn More
+            </div>
+          </a>
+          {% for link in project.links %}
+          <a href="{{ link.link }}" target="_blank">
+            <div class="learn-button">
+              {{ link.text }}
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <img src="{{ project.image }}">
+      <!--<div class="{{ project.feature-image }}"></div>-->
+    </div>
   {% endfor %}
+  </div>
 </div>
 <div class="section-container" id="about">
   <div class="about-me-container about-me-image">

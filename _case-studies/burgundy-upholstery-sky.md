@@ -9,6 +9,7 @@ links:
     link: http://burgundyupholsterysky.com
 anchor: burgundy-upholstery-sky
 date: 01/01/16
+image: /assets/images/burgundy-hero.png
 ---
 
 # Site: Burgundy Upholstery Sky Landing Page

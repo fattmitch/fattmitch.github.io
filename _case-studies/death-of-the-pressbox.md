@@ -9,6 +9,7 @@ links:
     link: http://deathofthepressbox.com/
 anchor: death-of-the-pressbox
 date: 01/02/16
+image: /assets/images/deathofthepressboxhero.png
 ---
 
 # Project: Death of the Pressbox

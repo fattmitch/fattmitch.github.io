@@ -4,12 +4,38 @@
   padding-top: 50px;
 }
 
+#work {
+  padding-top: 50px;
+
+ .section-container {
+    padding: 35px 20px;
+    overflow: visible;
+    background: #f7f7f7;
+    height: auto;
+    margin-bottom: 35px;
+    box-shadow: 0 30px 40px -30px rgba(0,0,0,0.25);
+
+    img {
+      width: 100%;
+      max-width: 550px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+.work-intro {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
 .content-container {
   position: relative;
   width: 95%;
   max-width: 550px;
   text-align: center;
   margin: auto;
+
 }
 
 .home-container {
@@ -36,9 +62,9 @@
 
 .my-mug {
   background-image: url(../assets/images/matts-mug2.png);
-  background-position: 92%;
+  background-position: 76%;
   background-size: cover;
-  height: 70%;
+  height: 72%;
 }
 
 .home-beach {
@@ -104,8 +130,8 @@
 .know-your-beer-image {
   background-image: url(../assets/images/knowyourbeer.png);
   background-position: top;
-  background-size: cover;
-  min-height: 70%;
+  background-size: contain;
+  height: 70%;
 }
 
 .venue-template-image {
@@ -164,13 +190,13 @@
   }
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
 
   .content-container {
-    width: 80%;
+    width: 90%;
     max-width: 700px;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .section-container {
@@ -188,15 +214,20 @@
     margin: auto;
     border-radius: 5px;
     color: $black;
+
+    .description {
+      font-size: 1.2rem;
+    }
 }
 
 
   .description {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 2.11rem;
+    line-height: 2.1rem;
     letter-spacing: 0.5;
-}
+    margin-bottom: 30px;
+  }
 
   .learn-button {
     font-size: 1rem;
@@ -205,22 +236,6 @@
 
   .my-mug {
     height: 100vh;
-  }
-
-  .venue-template-image {
-    background-position: 75% 80%;
-  }
-
-  .lil-bubbas-image {
-    background-position: 100% 15%;
-  }
-
-  .death-of-the-pressbox-image {
-  min-height: 57%;
-  }
-
-  .burgundy-upholstery-sky-image {
-    min-height: 57%;
   }
 }
 
@@ -239,13 +254,32 @@
     display: inline-block;
   }
 
-  .death-of-the-pressbox-image {
-    background-image: url(../assets/images/deathofthepressboxlarge.png);
-    min-height: 65%;
+  .work-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-    .burgundy-upholstery-sky-image {
-      background-image: url(../assets/images/burgundylarge.png);
-      min-height: 65%;
+  #work {
+    padding-top: 70px;
+
+    .section-container {
+      width: calc(100% / 2 - 75px);
+      padding-top: 0;
+      margin: 20px 0 50px 50px;
+      @include transition;
+
+      &:hover {
+        box-shadow: 0 40px 40px -30px rgba(0,0,0,0.25);
+        transform: scale(1.04,1.04);
+      }
+
+
+      img {
+        width: 60%;
+      }
+    }
+    .work-intro {
+      margin-bottom: 0;
+    }
   }
 }

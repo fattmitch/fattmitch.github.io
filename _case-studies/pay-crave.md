@@ -6,6 +6,7 @@ feature-image: pay-crave-image
 link: pay-crave
 anchor: pay-crave
 date: 03/01/2016
+image: /assets/images/phone-stack.png
 ---
 
 # Project: PayCrave
