@@ -33,6 +33,7 @@ textarea {
   resize: none;
   outline: none;
   border: none;
+  -webkit-border-radius: 0px;
   border-radius: 0;
 
   &::placeholder { color: $black; }
@@ -54,6 +55,7 @@ input[type=submit] {
   cursor: pointer;
   @include transition;
   box-shadow: 0 0 0 rgba(0,0,0,0);
+  -webkit-border-radius: 0px;
   border-radius: 0;
 }
 
