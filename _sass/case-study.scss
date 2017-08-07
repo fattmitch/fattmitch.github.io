@@ -89,14 +89,14 @@ hr {
 @media (min-width: 768px) {
 
   .back {
-    position: fixed;
+    //position: fixed;
     top: 80px;
     left: 30px;
     padding-top: 10px
   }
 
   .next {
-    position: fixed;
+    //position: fixed;
     top: 80px;
     right: 30px;
     padding-top: 10px
@@ -131,4 +131,10 @@ hr {
     margin: 15px 25% 15px 25%;
 
   }
+}
+
+@media (min-width: 1439px) {
+
+  .back,
+  .next { position: fixed; }
 }
