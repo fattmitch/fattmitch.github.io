@@ -24,7 +24,7 @@ h2,
 h3,
 h4{
   font-family: 'Sorts Mill Goudy', serif;
-  character-spacing: 1.5px;
+  letter-spacing: 1.5px;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
@@ -129,4 +129,9 @@ cite {
   }
 
   h2 { font-size: 1.6rem;}
+  h3 {
+    font-size: 1.3rem;
+    margin-top:50px;
+    margin-bottom:-15px;
+  }
 }

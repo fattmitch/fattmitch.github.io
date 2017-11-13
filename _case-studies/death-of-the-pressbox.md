@@ -8,11 +8,11 @@ links:
   - text: Visit Site
     link: http://deathofthepressbox.com/
 anchor: death-of-the-pressbox
-date: 01/02/16
-image: /assets/images/deathofthepressboxhero.png
+date: 04/01/2015
+image: /assets/images/death-of-the-pressbox-hero.png
 ---
 
-# Project: Death of the Pressbox
+# Site: Death of the Pressbox
 ---
 
 Death of the Pressbox is a long form commentary blog that is growing fast. Initially set up on Wordpress.com, it  started to outgrow it's skin. This project included migrating the site to a new hosting provider and implementing a new, more professional looking theme.
@@ -24,4 +24,4 @@ If you are interested in setting up a professional website on the Wordpress.org 
   </a>
 </div>
 
-!["Death of the Pressbox Hero"](/assets/images/deathofthepressboxhero.png)
+!["Death of the Pressbox Hero"](/assets/images/death-of-the-pressbox-hero.png)

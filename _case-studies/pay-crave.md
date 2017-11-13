@@ -5,7 +5,7 @@ description: A mobile application design project purposed for locating and order
 feature-image: pay-crave-image
 link: pay-crave
 anchor: pay-crave
-date: 03/01/2016
+date: 06/01/2017
 image: /assets/images/phone-stack.png
 ---
 

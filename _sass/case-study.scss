@@ -50,7 +50,7 @@
 }
 
 .case-study p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 1.33rem;
 }
 
@@ -70,10 +70,11 @@ hr {
 .container p img {
   width: 100%;
   max-width: 843px;
+  margin-top: 30px;
 }
 
 .yellow {
-  color: #FFB73E
+  color: #FFB73E;
 }
 
 .case-study .learn-button {
@@ -109,7 +110,7 @@ hr {
   }
 
   .case-study p {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     line-height: 2rem;
   }
 
@@ -124,6 +125,7 @@ hr {
 
   hr {
     height: 2px;
+    margin-bottom: 40px;
   }
 
   .case-study .learn-button {

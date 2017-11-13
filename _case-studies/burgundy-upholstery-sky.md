@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: Burgundy Upholstery Sky Landing Page
+title: Burgundy Upholstery Sky
 description: Landing page for the hit novella, Burgundy Upholstery Sky. Fully responsive and fully awesome. (While you're at it, support your indy author and buy it!)
 feature-image: burgundy-upholstery-sky-image
 link: /burgundy-upholstery-sky
@@ -8,7 +8,7 @@ links:
   - text: Visit Site
     link: http://burgundyupholsterysky.com
 anchor: burgundy-upholstery-sky
-date: 01/01/16
+date: 02/01/2015
 image: /assets/images/burgundy-hero.png
 ---
 

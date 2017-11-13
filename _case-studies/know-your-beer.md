@@ -8,8 +8,8 @@ links:
   - text: Visit Site
     link: http://knowyourbeer.herokuapp.com
 anchor: know-your-beer
-date: 01/03/16
-image: /assets/images/knowyourbeer.png
+date: 03/01/2015
+image: /assets/images/know-your-beer-hero.png
 ---
 
 # Project: Know Your Beer
@@ -19,7 +19,7 @@ Know Your Beer is a Single Page Web Application designed and developed for one p
 
 From start to finish, Know Your Beer was conceptualized, designed, and developed by me.
 
-!["Know Your Beer Hero"](/assets/images/knowyourbeer.png)
+!["Know Your Beer Hero"](/assets/images/know-your-beer-hero.png)
 
 ## The Problem
 ---
