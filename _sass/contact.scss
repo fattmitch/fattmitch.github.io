@@ -20,6 +20,7 @@ input {
   height: 4rem;
   box-shadow: 0 2px 0 $black;
   color: $black;
+  border-radius: 0px;
 
   &::placeholder { color: $black; }
 }
