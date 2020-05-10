@@ -64,6 +64,11 @@ $(document).ready(function(){
     $('#footer').addClass('white');
   }
 
+  if($('#mothers-day').hasClass('mothers-day-container')) {
+    $(document.body).addClass('purple-overlay');
+    $('#footer').addClass('white');
+  }
+
   // Show Philosophy
   // $('.philosophy').click(function(event) {
   //   togglePhilosophy();

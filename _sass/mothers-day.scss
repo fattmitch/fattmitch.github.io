@@ -1,0 +1,41 @@
+.purple-overlay {
+  background-color: rgba(110, 76,133,.75);
+  min-height: 100vh;
+}
+
+.mothers-day-container {
+
+  h1, h2, h3 { text-align: center;}
+
+  width: 100%;
+  color: $white;
+  padding: 30px 60px;
+  min-height: calc(#{100vh} - 73px - 63px);
+
+  .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .mothers-day-content {
+    font-size: 20px;
+    line-height:30px;
+
+    @media screen and (min-width:768px){
+      font-size: 28px;
+      line-height: 38px;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .content-image {
+      width: 100%;
+    }
+  }
+}

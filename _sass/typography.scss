@@ -40,6 +40,16 @@ h1 {
   }
 }
 
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+
+  @media screen and (min-width:768px){
+    font-size: 50px;
+  }
+}
+
 a:visited,
 a {
   @include transition;
@@ -127,7 +137,6 @@ cite {
     text-align: center;
   }
 
-  h2 { font-size: 1.6rem;}
   h3 {
     font-size: 1.3rem;
     margin-top:50px;
