@@ -1,10 +1,9 @@
----
----
-
 $black: #333333;
-$highlight: #14A1FF;
+$blue: #148AFF;
 $grey: #EEF0F3;
 $red: #E74C3C;
+$white: #fff;
+$yellow: #FFDF5C;
 
 @mixin transition() {
   -webkit-transition: all 500ms ease-in-out;
@@ -13,11 +12,10 @@ $red: #E74C3C;
   transition: all 500ms ease-in-out;
 }
 
-
-
 @import 'global';
 
 @import 'typography';
+
 
 /* MENU */
 
@@ -27,7 +25,12 @@ $red: #E74C3C;
 
 @import 'navbar';
 
+/* HOME */
+
+@import 'home';
+
 /* WORK SECTIONS */
+
 
 @import 'work';
 
@@ -37,6 +40,7 @@ $red: #E74C3C;
 /* ABOUT */
 
 @import 'about';
+@import 'philosophy';
 
 /* CONTACT */
 

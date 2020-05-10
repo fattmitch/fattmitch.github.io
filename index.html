@@ -3,78 +3,15 @@ layout: default
 title: Matt Fitch - UI Designer
 ---
 
-<div class="section-container" data-anchor="top">
-  <div class="home-container">
-    <h1 class="home-large">I'm Matt, and I'm a creator.</h1>
-    <p class="description">I take complex things, break them down, throw out junk, and reconstruct into something beautifully usable. That's what I do best, and what I love to do.<br><br>Take a look at <a href="#work">my work</a> or <a href="#contact">get in touch</a>.
+<div id="home" class="home-container">
+  <div class="title">
+    <h1>Matt Fitch</h1>
+    <h2><span class='designer-text'>Designer & </span><span class="developer-text">Developer</span></h2>
   </div>
-  <div class="my-mug"></div>
-  <div class="home-beach">
-    <div class="inspirational-quote">
-      <p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
-      <cite>- Antoine de Saint-Exupéry</cite>
-      <video autoplay loop class="video-background" muted plays-inline>
-        <source src="/assets/video/video.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
+  <section class="page-navigation">
+    <a class="feature-button philosophy" href="/philosophy">Philosophy</a>
+    <a class="feature-button work" href="/work">Work</a>
+    <a class="feature-button contact" href="/contact">Contact</a>
+  </section>
 </div>
-<div id="work">
-  <div class="work-intro">
-    <h1 class="large">Work</h1>
-  </div>
-  <div class="work-container">
-    {% assign work = site.case-studies | sort: 'date' %}
-    {% for project in work %}
-    <div class="section-container" id="{{ project.anchor }}">
-      <div class="content-container">
-        <div class="project-info">
-          <h2>{{ project.title }}</h1>
-        </div>
-        <div class="project-description">
-          <p class="description">{{ project.description }}</p>
-        </div>
-        <div class="learn-container">
-          <a href=" {{ project.link }}">
-            <div class="learn-button">
-              Learn More
-            </div>
-          </a>
-          {% for link in project.links %}
-          <a href="{{ link.link }}" target="_blank">
-            <div class="learn-button">
-              {{ link.text }}
-            </div>
-          </a>
-          {% endfor %}
-        </div>
-      </div>
-      <img src="{{ project.image }}">
-      <!--<div class="{{ project.feature-image }}"></div>-->
-    </div>
-  {% endfor %}
-  </div>
-</div>
-<div class="section-container" id="about">
-  <div class="about-me-container">
-    <div class="about-me-content">
-      <img class="circle-img" src="/assets/images/circle-headshot.png" alt="circle mug">
-      <div class="about-description-container">
-        <h1 class="large center">Philosophy</h1>
-        <p>Pizza. I love pizza. It’s delicious, and it’s simple. It has everything you need and nothing you don’t. It comes with many different configurations, and no matter how outlandish an ingredient combination is, pizza still tastes good. (Yes, even canadian bacon and pineapple).</p>
-        <p>Good design is like a pizza; it transforms basic ingredients into something amazing. I consider myself a pizza maker. I take ingredients, no matter how complex, and bake them into something delicious and easy to eat. And like pizza, folks tend to have different tastes. While some may like it basic, others prefer to spice it up (Linguapeño anyone?). Throughout my design career, I’ve learned that even if I have unsavory ingredients (yellow, purple, green, and orange… eeek) you can turn that into something unique and tasty.</p>
-        <p>I’m a designer. I love clean, modern design. I love to take complex problems and bake them into something that is a joy to use. I love the golden ratio. I love creating, problem solving and working in a team. I love differences in opinion, and I love learning new things, but most importantly, I love life, and am fortunate enough to do what I love for a living.</p>
-      </div>
-    </div>
-  </div>
-  <div class="about-image">
-  </div>
-</div>
-  <div class="section-container contact" id="contact">
-    <div class="contact-left">
-      <h1 class="large">Contact</h1>
-        <p>If you want to contact me, do it! Feel free to get in touch via <a href="https://www.linkedin.com/in/msfitch/">LinkedIn</a></p>
-    </div>
-    <div class="contact-logo">
-    </div>
-  </div>
+

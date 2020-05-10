@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nova Round', serif;
   font-size: 1em;
   font-weight: 300;
   color: $black;
@@ -27,10 +27,17 @@ h1,
 h2,
 h3,
 h4{
-  font-family: 'Sorts Mill Goudy', serif;
-  letter-spacing: 1.5px;
+  font-family: 'Caveat', cursive;
   font-weight: normal;
   text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 40px;
+
+  @media screen and (min-width:768px){
+    font-size: 60px;
+  }
 }
 
 a:visited,
@@ -45,10 +52,6 @@ a:hover {
 }
 
 .large {
-  font-size: 1.7rem;
-}
-
-.home-large {
   font-size: 1.7rem;
 }
 
@@ -82,11 +85,6 @@ cite {
   a:visited,
   a {
     position: relative;
-    color: $red;
-  }
-
-  a:hover {
-    color: $red;
   }
 
   a:before {
@@ -102,10 +100,7 @@ cite {
     -moz-transform: scaleX(0);
     -o-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    @include transition;
   }
 
   a:hover:before {

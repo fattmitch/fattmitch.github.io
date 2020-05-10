@@ -1,0 +1,43 @@
+---
+layout: default
+title: Matt Fitch - UI/UX Designer and Developer - My Work
+---
+<div id="work" class="work-container">
+  <div class="title">
+    <h1>Work</h1>
+  </div>
+  <div class="work-content">
+    Coming Soon!
+  </div>
+  <div class="work-container hidden">
+    {% assign work = site.case-studies | sort: 'date' %}
+    {% for project in work %}
+    <div class="section-container" id="{{ project.anchor }}">
+      <div class="content-container">
+        <div class="project-info">
+          <h2>{{ project.title }}</h1>
+        </div>
+        <div class="project-description">
+          <p class="description">{{ project.description }}</p>
+        </div>
+        <div class="learn-container">
+          <a href=" {{ project.link }}">
+            <div class="learn-button">
+              Learn More
+            </div>
+          </a>
+          {% for link in project.links %}
+          <a href="{{ link.link }}" target="_blank">
+            <div class="learn-button">
+              {{ link.text }}
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <img src="{{ project.image }}">
+      <!--<div class="{{ project.feature-image }}"></div>-->
+    </div>
+  {% endfor %}
+  </div>
+</div>

@@ -41,4 +41,44 @@ $(document).ready(function(){
   function toggleIcon() {
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').toggleClass('open');
   }
+
+  if($('#home').hasClass('home-container')) {
+    $('.menu-button-container').addClass('hide');
+  }
+
+  if($('#philosophy').hasClass('philosophy-container')) {
+    $(document.body).addClass('red-overlay');
+    $('.logo').addClass('white');
+    $('#footer').addClass('white');
+  }
+
+  if($('#work').hasClass('work-container')) {
+    $(document.body).addClass('yellow-overlay');
+    $('.logo').addClass('white');
+    $('#footer').addClass('white');
+  }
+
+  if($('#contact').hasClass('contact-container')) {
+    $(document.body).addClass('blue-overlay');
+    $('.logo').addClass('white');
+    $('#footer').addClass('white');
+  }
+
+  // Show Philosophy
+  // $('.philosophy').click(function(event) {
+  //   togglePhilosophy();
+  // });
+
+  // $('.close-section').click(function(event) {
+  //   togglePhilosophy();
+  // });
+
+  // function togglePhilosophy() {
+  //   // event.preventDefault();
+  //   $('.philosophy-container').toggleClass('show');
+  //   $('.home-container').toggleClass('hide');
+  //   $('.navbar').toggleClass('hide');
+  //   $('footer').toggleClass('hide');
+  // }
+
 });

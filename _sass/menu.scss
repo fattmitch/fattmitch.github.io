@@ -6,7 +6,7 @@
   top: 0;
   right: -50%;
   background: $black;
-  font-family: 'Sorts Mill Goudy', serif;
+  // font-family: 'Sorts Mill Goudy', serif;
   font-weight: 600;
   -webkit-transition: right 400ms ease-in-out;
   -moz-transition: right 400ms ease-in-out;
@@ -17,6 +17,26 @@
   img {
     width: 70%;
     margin-top: 50px;
+  }
+
+  .work-link {
+
+    &:before{ background-color: $yellow; }
+    &:hover {
+      color: $yellow;
+
+      &:before { background-color: $yellow}
+    }
+  }
+
+  .contact-link {
+
+    &:before{ background-color: $blue; }
+    &:hover {
+      color: $blue;
+
+      &:before { background-color: $blue}
+    }
   }
 }
 
@@ -36,8 +56,13 @@
 .menu-button-container {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 20px;
   z-index: 201;
+
+  &.hide {
+    opacity: 0;
+    z-index: -1;
+  }
 }
 
 .menu ul {

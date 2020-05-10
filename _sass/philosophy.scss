@@ -1,13 +1,15 @@
-.yellow-overlay {
-    background-color: rgba($yellow, .75)
+.red-overlay {
+  background-color: rgba($red, .75)
 }
 
-.work-container {
+.philosophy-container {
+  width: 100%;
   color: $white;
-  min-height: calc(#{100vh} - 73px - 63px);
-  text-align: center;
-  padding-top: 50px;
+  padding: 0 40px 0 30px;
 
+  @media screen and (min-width:768px) {
+    padding: 0 60px;
+  }
 
   .title {
     width: 100%;
@@ -15,7 +17,7 @@
     margin-top: 20px;
   }
 
-  .work-content {
+  .philosophy-content {
     font-size: 20px;
     line-height:30px;
 
@@ -27,7 +29,7 @@
     }
   }
 
-  .hidden {
-    display: none;
+  &.show {
+
   }
 }
