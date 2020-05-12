@@ -6,7 +6,10 @@
   color: $white;
   min-height: calc(#{100vh} - 73px - 63px);
   text-align: center;
-  padding-top: 50px;
+
+  @media screen and (min-width:768px) {
+    min-height: calc(#{100vh} - 112px - 63px);
+  }
 
 
   .title {
