@@ -69,6 +69,11 @@ $(document).ready(function(){
     $('#footer').addClass('white');
   }
 
+  if($('#fathers-day').hasClass('fathers-day-container')) {
+    $(document.body).addClass('blue-green-overlay');
+    $('#footer').addClass('white');
+  }
+
   // Show Philosophy
   // $('.philosophy').click(function(event) {
   //   togglePhilosophy();

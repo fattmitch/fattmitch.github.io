@@ -1,0 +1,38 @@
+.blue-green-overlay {
+  background-color: rgba(113, 174, 192, 0.75);
+  min-height: 100vh;
+}
+
+.fathers-day-container {
+
+  h1, h2, h3 { text-align: center;}
+
+  width: 100%;
+  color: $white;
+  padding: 30px 60px;
+  min-height: calc(#{100vh} - 73px - 63px);
+
+  .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .fathers-day-content {
+    font-size: 20px;
+    line-height:30px;
+
+    @media screen and (min-width:768px){
+      font-size: 28px;
+      line-height: 38px;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .content-image {
+      width: 100%;
+    }
+  }
+
+  .poem { text-align: center; }
+}
