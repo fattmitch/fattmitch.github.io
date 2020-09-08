@@ -6,6 +6,10 @@
   background-color: rgba($blue, .75)
 }
 
+.white-overlay {
+  &::after { background-color: rgba($white, .8) }
+}
+
 .page-container {
   width: 100%;
   color: $black;
