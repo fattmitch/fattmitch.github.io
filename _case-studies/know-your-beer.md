@@ -10,7 +10,7 @@ links:
     link: http://knowyourbeer.herokuapp.com
 anchor: know-your-beer
 date: 03/01/2015
-image: /assets/images/know-your-beer-hero.png
+image: /assets/images/know-your-beer-hero.jpg
 ---
 
 # Project: Know Your Beer

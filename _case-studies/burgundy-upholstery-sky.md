@@ -5,12 +5,9 @@ title-short: Book Website
 description: Landing page for the hit novella, Burgundy Upholstery Sky. Fully responsive and fully awesome. (While you're at it, support your indy author and buy it!)
 feature-image: burgundy-upholstery-sky-image
 link: /burgundy-upholstery-sky
-links:
-  - text: Visit Site
-    link: http://burgundyupholsterysky.com
 anchor: burgundy-upholstery-sky
 date: 02/01/2015
-image: /assets/images/burgundy-hero.png
+image: /assets/images/burgundy-hero.jpg
 ---
 
 # Site: Burgundy Upholstery Sky Landing Page

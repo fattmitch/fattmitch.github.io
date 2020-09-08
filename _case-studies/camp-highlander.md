@@ -5,9 +5,12 @@ title-short: Highlander
 description: Camp Highlander has been a long time client but they were looking for a fresh design. They transitioned from a busy, in your face design to simple elegance - emphasizing photography and typography.
 feature-image:
 link: /camp-highlander
+links:
+  - text: Visit Site
+    link: https://www.camphighlander.com/
 anchor: Camp Highlander
 date: 3/12/2014
-image: /assets/images/highlander-homepage.png
+image: /assets/images/highlander-hero.jpg
 ---
 
 # Site: Camp Highlander

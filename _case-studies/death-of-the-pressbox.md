@@ -10,7 +10,7 @@ links:
     link: http://deathofthepressbox.com/
 anchor: death-of-the-pressbox
 date: 04/01/2015
-image: /assets/images/death-of-the-pressbox-hero.png
+image: /assets/images/death-of-the-pressbox-hero.jpg
 ---
 
 # Site: Death of the Pressbox

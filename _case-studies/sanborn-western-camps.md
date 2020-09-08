@@ -10,7 +10,7 @@ links:
     link: https://www.sanbornwesterncamps.com/
 anchor: sanborn-western-camps
 date: 01/12/2014
-image: /assets/images/sanborn-homepage.png
+image: /assets/images/sanborn-hero.jpg
 ---
 
 # Site: Sanborn Western Camps

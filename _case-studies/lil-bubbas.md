@@ -7,7 +7,7 @@ feature-image: lil-bubbas-image
 link: lil-bubbas
 anchor: lil-bubbas
 date: 05/01/2015
-image: /assets/images/little-bubbas-hero.png
+image: /assets/images/little-bubbas-hero.jpg
 ---
 
 # Project: Lil Bubba's Bows

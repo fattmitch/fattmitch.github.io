@@ -7,7 +7,7 @@ feature-image:
 link: marketing-emails
 anchor: marketing-emails
 date: 01/01/2015
-image: /assets/images/campaign-monitor-email-templates.png
+image: /assets/images/emails.jpg
 ---
 
 # Email Marketing and Newsletter Templates

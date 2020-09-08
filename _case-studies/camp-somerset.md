@@ -10,7 +10,7 @@ links:
     link: https://somersetforgirls.com/
 anchor: Camp Somerset
 date: 30/12/2014
-image: /assets/images/somerset-homepage.png
+image: /assets/images/somerset-hero.jpg
 ---
 
 # Site: Camp Somerset for Girls

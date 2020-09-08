@@ -10,7 +10,7 @@ links:
     link: https://www.rachelfeldman.com/
 anchor: rachel-feldman
 date: 01/12/2014
-image: /assets/images/rachel-feldman-hero.png
+image: /assets/images/rachel-feldman-hero.jpg
 ---
 
 # Site: Rachel Feldman Squarespace Site
