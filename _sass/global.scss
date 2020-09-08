@@ -6,17 +6,30 @@
 
 html {
     font-size: 18px;
-    background: $grey url(../assets/images/background--waves.jpg) center / cover no-repeat fixed;
+    // background: $grey url(../assets/images/background--waves.jpg) center / cover no-repeat fixed;
 
-    &::before {
-      content: ' ';
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      top: 0;
-      background: rgba(255, 255, 255, .5);
-      z-index: -1;
-    }
+    // &::before {
+    //   content: ' ';
+    //   height: 100%;
+    //   width: 100%;
+    //   position: fixed;
+    //   top: 0;
+    //   background: rgba(255, 255, 255, .5);
+    //   z-index: -1;
+    // }
+}
+body {
+  background: $grey url(../assets/images/background--waves.jpg) center / cover no-repeat fixed;
+
+  &::before {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(255, 255, 255, .5);
+    z-index: -1;
+  }
 }
 
 img {
