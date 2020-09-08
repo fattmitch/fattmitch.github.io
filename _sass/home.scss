@@ -2,41 +2,40 @@
   @include transition;
   opacity: 1;
   padding: 0 20px;
-  min-height: calc(100vh - 131px);
 
   .title {
     width: 100%;
-    padding: 0 20px 20px;
+    padding: 0 rem(20px) rem(20px);
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
     h1 {
-      font-size: 40px;
-      font-family: 'Nova Round', serif;
+      font-size: rem(50px);
+      margin: rem(20px) 0 0 0;
       width: 100%;
     }
 
     .designer-text {
-      font-size: 25px;
+      font-size: rem(25px);
       font-family: 'Rock Salt', cursive;
 
       @media screen and (min-width:768px){
-        font-size: 30px;
+        font-size: rem(30px);
       }
     }
 
     .developer-text {
       font-family: 'Nova Mono', monospace;
-      font-size: 28px;
+      font-size: rem(28px);
       background: $black;
       color: $white;
-      padding-left: 5px;
-      padding-right: 3px;
+      padding-left: rem(5px);
+      padding-right: rem(3px);
 
       @media (min-width:768px){
-        font-size: 38px;
+        font-size: rem(38px);
       }
     }
   }
@@ -52,25 +51,26 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      max-width: 1440px;
+      max-width: rem(1440px);
       margin: auto;
       width: 100%;
     }
 
     .feature-button {
       @include transition;
-      font-family: 'Nova Mono', monospace;
-      font-size: 2.25rem;
+      // font-family: 'Nova Mono', monospace;
+      font-size: rem(45px);
+      font-weight: 400;
       color: $black;
       display: flex;
       justify-content: center;
       align-items: center;
       background: $white;
-      width: 300px;
-      height: 300px; 
-      border-radius: 150px;
-      box-shadow: 0 22px 34px -22px rgba(0,0,0,0.50);
-      margin-bottom: 50px;
+      width: rem(300px);
+      height: rem(300px); 
+      border-radius: rem(150px);
+      box-shadow: 0 rem(22px) rem(34px) rem(-22px) rgba(0,0,0,0.50);
+      margin-bottom: rem(50px);
 
       @media screen and (min-width:768px){
         margin-bottom: 0;

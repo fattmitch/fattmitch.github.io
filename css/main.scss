@@ -15,6 +15,29 @@ $yellow: #FFDF5C;
   transition: all 500ms ease-in-out;
 }
 
+@mixin card {
+  background: $white;
+  box-shadow: 0 rem(22px) rem(34px) rem(-22px) rgba(0,0,0,0.50);
+  border-radius: 25px;
+
+  @media screen and (min-width:768px) {
+    border-radius: rem(40px);
+  }
+}
+
+$theme-root-font-size: 18px;
+
+$font-size-root: $theme-root-font-size;
+
+// Font unit conversion.
+@function em($size, $context: $theme-root-font-size) {
+  @return 1em * ($size / $context);
+}
+
+@function rem($size, $context: $theme-root-font-size) {
+  @return 1rem * ($size / $context);
+}
+
 @import 'global';
 
 @import 'typography';
@@ -30,6 +53,7 @@ $yellow: #FFDF5C;
 
 /* HOME */
 
+@import 'page';
 @import 'home';
 
 /* WORK SECTIONS */
@@ -39,15 +63,6 @@ $yellow: #FFDF5C;
 
 @import 'buttons';
 
-
-/* ABOUT */
-
-@import 'about';
-@import 'philosophy';
-
-/* CONTACT */
-
-@import 'contact';
 
 /* CASE STUDY */
 

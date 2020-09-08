@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Rachel Feldman – Director
+title-short: Rachel Feldman
 description: A sleek and modern custom Squarespace site designed to bring Rachel, one of Hollywood's top female directors, into the spotlight. The site emphasizes her experience and activism in Hollywood.
 feature-image:
 link: /rachel-feldman

@@ -1,6 +1,6 @@
 body {
-  font-family: 'Nova Round', serif;
-  font-size: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+
   font-weight: 300;
   color: $black;
 }
@@ -20,37 +20,39 @@ li {
 }
 
 p {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 h1,
 h2,
 h3,
 h4{
-  font-family: 'Caveat', cursive;
-  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: rem(40px);
+  line-height: rem(50px);
 
   @media screen and (min-width:768px){
-    font-size: 60px;
+    font-size: rem(50px);
   }
 }
 
 h2 {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 30px;
+  font-size: rem(30px);
 
   @media screen and (min-width:768px){
-    font-size: 50px;
+    font-size: rem(35px);
   }
+
+  // @media screen and (min-width:1280px){
+  //   font-size: rem(40px);
+  // }
 }
 
-a:visited,
 a {
   @include transition;
   text-decoration: none;
@@ -59,23 +61,6 @@ a {
 
 a:hover {
   color: $red;
-}
-
-.large {
-  font-size: 1.7rem;
-}
-
-.large-about {
-  font-size: 1.5rem;
-}
-
-.home-beach p {
-  color: $grey;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  font-weight: 300;
-  font-style: italic;
-  text-align: left;
 }
 
 cite {
@@ -88,11 +73,7 @@ cite {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
 
-  a:visited,
   a {
     position: relative;
   }
@@ -119,27 +100,5 @@ cite {
     -moz-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);
-  }
-
-  .large {
-    font-size: 2rem;
-  }
-
-  .home-large {
-    font-size: 3rem;
-  }
-
-  .large-about {
-    font-size: 1.7rem;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-    margin-top:50px;
-    margin-bottom:-15px;
   }
 }

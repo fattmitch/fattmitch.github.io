@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Death of the Pressbox
+title-short: DotPB
 description: A long form commentary site migration from Wordpress.com to Wordpress.org. Project included migrating site to a new hosting provider and premium theme customization.
 feature-image: death-of-the-pressbox-image
 link: /death-of-the-pressbox

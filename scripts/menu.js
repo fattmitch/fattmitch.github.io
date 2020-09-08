@@ -36,6 +36,7 @@ $(document).ready(function(){
 
   function toggleMenu() {
     $('.menu').toggleClass('show');
+    $(body).toggleClass('overflow-hidden');
   }
 
   function toggleIcon() {
@@ -47,21 +48,23 @@ $(document).ready(function(){
   }
 
   if($('#philosophy').hasClass('philosophy-container')) {
-    $(document.body).addClass('red-overlay');
-    $('.logo').addClass('white');
-    $('#footer').addClass('white');
+    $(document.body).addClass('white-overlay');
+    // $('.logo').addClass('white');
+    // $('#footer').addClass('white');
   }
 
   if($('#work').hasClass('work-container')) {
-    $(document.body).addClass('yellow-overlay');
-    $('.logo').addClass('white');
-    $('#footer').addClass('white');
+    $(document.body).addClass('white-overlay');
   }
 
   if($('#contact').hasClass('contact-container')) {
-    $(document.body).addClass('blue-overlay');
-    $('.logo').addClass('white');
-    $('#footer').addClass('white');
+    $(document.body).addClass('white-overlay');
+    // $('.logo').addClass('white');
+    // $('#footer').addClass('white');
+  }
+
+  if($('#case-study').hasClass('case-study-container')) {
+    $(document.body).addClass('white-overlay');
   }
 
   if($('#mothers-day').hasClass('mothers-day-container')) {

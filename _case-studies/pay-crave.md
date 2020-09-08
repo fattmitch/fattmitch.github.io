@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: PayCrave Design Project
+title-short: PayCrave
 description: A mobile application design project purposed for locating and ordering from nearby food trucks. Work included user research, wireframing, and designing high-fidelity mockups.
 feature-image: pay-crave-image
 link: pay-crave

@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Camp Somerset for Girls
+title-short: Camp Somerset
 description: Camp Somerset for Girls is a brand spankin new summer camp opening in 2018. With no web presence (or photography), Camp Somerset's website had to be visually interesting sans photos.
 feature-image:
 link: /camp-somerset

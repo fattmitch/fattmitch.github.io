@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 18px;
     background: $grey url(../assets/images/background--waves.jpg) center / cover no-repeat fixed;
 
     &::before {
@@ -17,4 +17,16 @@ html {
       background: rgba(255, 255, 255, .5);
       z-index: -1;
     }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

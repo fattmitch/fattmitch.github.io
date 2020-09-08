@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Know Your Beer
+title-short: KYB
 description: The quick and easy online beer encyclopedia. Work included logo creation, branding, UX/UI design, prototyping, and development. Built with the AngularJS framework.
 feature-image: know-your-beer-image
 link: /know-your-beer

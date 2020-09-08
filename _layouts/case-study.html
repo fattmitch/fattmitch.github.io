@@ -1,23 +1,29 @@
 ---
-layout: default-alt-nav
+layout: default
 ---
 
-<div class="container">
-  {% if page.previous.url %}
-  <div class="back">
-    <a href="{{page.previous.url}}"><i class="fa fa-angle-left"></i>&nbsp;{{page.previous.title}}</a>
+<div id="case-study" class="case-study-container">
+  <div class="page-container case-study">
+    <div class="page-inner">
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </div>
   </div>
-  {% else %}
-  <div class="back">
-    <a href="/index.html#work"><i class="fa fa-angle-left"></i>&nbsp;Back to work</a>
-  </div>
-  {% endif %}
-  {% if page.next.url %}
-  <div class="next">
-  <a href="{{page.next.url}}">{{page.next.title}}&nbsp;<i class="fa fa-angle-right"></i></a>
-  </div>
-  {% endif %}
-  <div class="case-study">
-    {{ content }}
+  <div class="page-nav">
+    {% if page.previous.url %}
+    <div class="back">
+      <a href="{{page.previous.url}}"><i class="fa fa-angle-left"></i>&nbsp;{{page.previous.title-short}}</a>
+    </div>
+    {% else %}
+    <div class="back">
+      <a href="/work"><i class="fa fa-angle-left"></i>&nbsp;Back to work</a>
+    </div>
+    {% endif %}
+    {% if page.next.url %}
+    <div class="next">
+    <a href="{{page.next.url}}">{{page.next.title-short}}&nbsp;<i class="fa fa-angle-right"></i></a>
+    </div>
+    {% endif %}
   </div>
 </div>

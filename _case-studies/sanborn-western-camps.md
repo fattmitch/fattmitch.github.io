@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Sanborn Western Camps
+title-short: Sanborn
 description: Sanborn Western Camps was in need of major website refresh. Their old website was outdated and non-responsive. They came to Ronningen Design to get on a modern platform and unique design.
 feature-image:
 link: /sanborn-western-camps

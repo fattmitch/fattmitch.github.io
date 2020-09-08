@@ -1,0 +1,47 @@
+.red-overlay {
+  background-color: rgba($red, .75)
+}
+
+.blue-overlay {
+  background-color: rgba($blue, .75)
+}
+
+.page-container {
+  width: 100%;
+  color: $black;
+  padding: rem(20px);
+
+  @media screen and (min-width:768px) {
+    padding: rem(20px) rem(60px);
+  }
+}
+
+  .page-inner {
+    @include card;
+    padding: rem(30px) rem(20px);
+    max-width: rem(950px);
+    margin: auto;
+
+    @media screen and (min-width:768px) {
+      padding: rem(30px) rem(40px);
+    }
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+
+    // h1 { margin-top: 0;}
+  }
+
+  .page-content {      
+    p {
+      font-size: rem(20px);
+      line-height:rem(30px);
+    }
+
+    @media screen and (min-width:768px){
+      font-size: rem(25px);
+      line-height: rem(38px);
+    }
+  }

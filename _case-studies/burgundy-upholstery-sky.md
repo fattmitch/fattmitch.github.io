@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Burgundy Upholstery Sky
+title-short: Book Website
 description: Landing page for the hit novella, Burgundy Upholstery Sky. Fully responsive and fully awesome. (While you're at it, support your indy author and buy it!)
 feature-image: burgundy-upholstery-sky-image
 link: /burgundy-upholstery-sky

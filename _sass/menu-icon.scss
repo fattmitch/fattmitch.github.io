@@ -19,7 +19,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: $white;
+  background: $black;
   border-radius: 7px;
   opacity: 1;
   left: 0;
@@ -46,7 +46,7 @@
 }
 
 #nav-icon3.open span {
-  background: #fff;
+  background: $black;
 }
 
 #nav-icon3.open span:nth-child(1) {

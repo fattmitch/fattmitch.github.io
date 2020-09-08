@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Camp Highlander
+title-short: Highlander
 description: Camp Highlander has been a long time client but they were looking for a fresh design. They transitioned from a busy, in your face design to simple elegance - emphasizing photography and typography.
 feature-image:
 link: /camp-highlander

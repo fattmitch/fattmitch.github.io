@@ -1,90 +1,89 @@
-.container {
-  margin-top: 65px;
+.white-overlay {
+  background-color: rgba($white, .75)
 }
 
-.back {
-  position: absolute;
-  top: 75px;
-  left: 10px;
-  font-size: .75rem;
-}
+.case-study-container {
 
-.next {
-  position: absolute;
-  top: 75px;
-  right: 10px;
-  font-size: .75rem;
-}
+  .page-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: rem(20px) rem(20px);
+    
+    @media screen and (min-width:768px) {
+      max-width: rem(950px);
+      margin: rem(20px) auto;
+    }
+  }
 
-.next a,
-.back a {
-  color: $black;
-}
+  .back,
+  .next {
+    display: inline;
+  }
 
-.next a:hover,
-.back a:hover {
-  color: $red;
-}
+  .next a,
+  .back a {
+    color: $black;
+    font-size: .8rem;
 
-.next a:hover:before,
-.back a:hover:before {
-  visibility: hidden;
-}
+    @media screen and (min-width:768px) {
+      font-size: rem(18px);
+    }
+  }
 
-.case-study {
-  width: 90%;
-  margin: 110px auto 0px;
-  font-size: 1rem;
+  .next a:hover,
+  .back a:hover {
+    color: $red;
+  }
 
-}
+  .next a:hover:before,
+  .back a:hover:before {
+    visibility: hidden;
+  }
 
-.case-study h1 {
-  text-align: center;
-  line-height: 1.9rem
-}
+  .case-study h1 {
+    text-align: center;
+  }
 
-.case-study h2 {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 1.3rem;
-}
+  .case-study h2 {
+    margin-top: rem(30px);
+    text-align: center;
+    font-size: 1.3rem;
+  }
 
-.case-study p {
-  margin-bottom: 40px;
-  line-height: 1.5rem;
-}
+  hr {
+    margin-bottom: rem(30px);
+    max-width: rem(873px);
+    text-align: center;
+    border: 0;
+    height: 1px;
+    background: $black;
 
-.case-study a {
-  color: $red;
-}
+    @media screen and (min-width: 768px) {
+        height: 2px;
+        margin-bottom: 40px;
+    }
+  }
 
-hr {
-  margin-bottom: 20px;
-  max-width: 873px;
-  text-align: center;
-  border: 0;
-  height: 1px;
-  background: $black;
-}
+  .container p img {
+    width: 100%;
+    // max-width: 843px;
+    margin-top: 30px;
+  }
 
-.container p img {
-  width: 100%;
-  max-width: 843px;
-  margin-top: 30px;
-}
+  .yellow {
+    color: #FFB73E;
+  }
 
-.yellow {
-  color: #FFB73E;
-}
+  .case-study .learn-button {
+    width: 50%;
+    margin: 0 25% 0 25%;
+    text-align: center;
+  }
 
-.case-study .learn-button {
-  width: 50%;
-  margin: 0 25% 0 25%;
-  text-align: center;
-}
-
-.case-button a:hover:before {
-  display: none;
+  .case-button a:hover:before {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -103,16 +102,6 @@ hr {
     padding-top: 10px
   }
 
-  .case-study {
-    max-width: 843px;
-    margin-top: 150px;
-    margin-bottom: 0;
-  }
-
-  .case-study p {
-    font-size: 1.125rem;
-    line-height: 2rem;
-  }
 
   .case-study h1 {
     font-size: 2rem;
@@ -135,8 +124,8 @@ hr {
   }
 }
 
-@media (min-width: 1439px) {
+// @media (min-width: 1439px) {
 
-  .back,
-  .next { position: fixed; }
-}
+//   .back,
+//   .next { position: fixed; }
+// }

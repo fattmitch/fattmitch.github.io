@@ -1,22 +1,35 @@
 .menu {
   height: 100%;
-  width: 50%;
+  width: 100%;
   text-align: center;
   position: fixed;
   top: 0;
-  right: -50%;
+  // right: -100%;
+  opacity: 0;
   background: $black;
-  // font-family: 'Sorts Mill Goudy', serif;
-  font-weight: 600;
-  -webkit-transition: right 400ms ease-in-out;
-  -moz-transition: right 400ms ease-in-out;
-  -o-transition: right 400ms ease-in-out;
-  transition: right 400ms ease-in-out;
-  z-index: 200;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   img {
-    width: 70%;
-    margin-top: 50px;
+    width: rem(200px);
+    margin-top: rem(50px);
+  }
+
+  .home-link {
+
+    &:before{ background-color: $white; }
+    &:hover {
+      color: $white;
+
+      &:before { background-color: $white}
+    }
   }
 
   .work-link {
@@ -49,15 +62,20 @@
 }
 
 .show {
-  right: 0px;
-  box-shadow: -5px 0px 20px -8px rgba(0, 0, 0, 0.3);
+  // right: 0px;
+  opacity: 100;
+  z-index: 200;
 }
 
 .menu-button-container {
+  background: $white;
+  border-radius: 0 0 0 rem(25px);
   position: fixed;
-  right: 15px;
-  top: 20px;
+  right: 0;
+  top: 0;
+  padding: rem(20px);
   z-index: 201;
+  box-shadow: 0 rem(22px) rem(34px) rem(-22px) rgba(0,0,0,0.50);
 
   &.hide {
     opacity: 0;
@@ -71,9 +89,13 @@
 }
 
 .menu ul li {
-  font-size: 20px;
-  width: 90%;
-  margin: 30px auto;
+  font-size: rem(40px);
+  margin: rem(30px) auto;
+
+  @media screen and (min-width:768px) {
+    font-size: rem(50px);
+    margin: rem(50px) auto;
+  }
 }
 
 .menu ul li a {
@@ -81,35 +103,5 @@
 }
 
 .menu ul li.sub-menu{
-  font-size: 15px;
-}
-
-@media (min-width: 768px) {
-  .menu {
-      width: 25%;
-      right: -25%;
-      padding-top: 80px;
-  }
-
-  .show {
-    right: 0px;
-  }
-
-  .menu ul {
-    //top: -15px;
-  }
-  .menu ul li {
-    font-size: 40px;
-    margin: 0 auto 50px;
-  }
-
-  .menu-button-container {
-    position: fixed;
-    right: 20px;
-    top: 20px;
-  }
-
-  .menu ul li.sub-menu {
-    font-size: 20px;
-  }
+  font-size: rem(15px);
 }
