@@ -7,7 +7,7 @@
 }
 
 .white-overlay {
-  &::after { background-color: rgba($white, .8) }
+  background-color: rgba($white, .8);
 }
 
 .page-container {
