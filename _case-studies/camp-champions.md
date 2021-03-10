@@ -18,10 +18,10 @@ class: white
 ---
 
 #### Summary
-Camp Champions loved their existing design but were in desperate need of upgrading their platform. This project's emphasis was mostly on development. This project entailed migrating a the site content, look, and feel over to a newer, more modern platform.
+Camp Champions loved their existing design but were in desperate need of upgrading their platform. This project's emphasis was mostly on development. This project entailed migrating the site look, feel, and content over to a newer, more modern platform.
 
 #### Braggin Rights
-Remember the three R's? Reduce, reuse, recyle. That's what we did with this project, taking existing styles, and making them conform to newer markup. The end result is a faster, stabler. and more responsive site, that pretty much looks exactly the same. Job done.
+Remember the three R's? Reduce, reuse, recyle. That's what we did with this project, taking existing styles, and making them conform to newer markup. The end result is a faster, more stable, and more responsive site which looks exactly the same as it did. Job done.
 
 {% include case-study-button.html %}
 

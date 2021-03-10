@@ -20,7 +20,7 @@ class: white
 There wasn't too much design work done here. We refined a few things and made some tweaks to the site navigation. This project was all about migrating an existing design over to a new platform (like Camp Champions).
 
 #### Braggin Rights
-This was one of the first sites where I really cut my teeth on working with the site code. Getting the CSS to line up with the newer markup and making things fit they way they used to was a blast and made me realize I wanted to get my hands on more development work.
+This was one of the first sites where I really cut my teeth on working with the site code. Getting the CSS to line up with the newer markup and getting the site to look consistent with their existing design was a blast and made me realize I wanted to get my hands on more development work.
 
 {% include case-study-button.html %}
 

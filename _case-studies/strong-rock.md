@@ -17,7 +17,7 @@ class: white
 ### Quick Deploy Site
 ---
 #### Project Summary
-Faced with a dying wordpress site, and limited resources, Strong Rock needed a site they knew was going to perform and be easy to manage. Enter the Typewriter templated solution. Skipping the design phase saved them money, reduced time to launch, and ending up with a site that's easier to navigate.
+Faced with a dying wordpress site, and limited resources, Strong Rock needed a site they knew was going to perform and be easy to manage. Enter the Typewriter templated solution. Skipping the design phase saved money, reduced time to launch, and ended with a faster, easier to use website.
 
 #### Braggin Rights
 My favorite aspect of the Strong Rock project was redesigning their navigation. A re-thought site map and simplified nav means more people getting the right info and signing up for camp.

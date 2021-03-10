@@ -16,7 +16,7 @@ image: /assets/images/sanborn-hero.jpg
 # Sanborn Western Camps
 ### Signature Site
 ---
-Working with the guidance of our lead designer, Chuck Fultz, Sanborn Western Camps' website was one of my first design projects at Ronningen Design. Work involved wire framing, low/high fidelity mockups, protoyping, and even crafting pages.
+Working with the guidance of our lead designer, Chuck Fultz, Sanborn Western Camps' website was one of my first design projects at Ronningen Design. Work involved wire framing, low/high fidelity mockups, prototyping, and even crafting pages.
 
 As with every Ronnignen Design project, we start off with an in depth interview with the client. We review everything from high level goals to websites they love and hate.
 
