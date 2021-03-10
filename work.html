@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Matt Fitch - UI/UX Designer and Developer - My Work
+class: white
 ---
 <div id="work" class="work-container">
   <div class="title">
     <h1>Work</h1>
   </div>
   <div class="projects-container">
-    {% assign work = site.case-studies | sort: 'date' %}
+    {% assign work = site.case-studies | sort: 'date' | reverse %}
     {% for project in work %}
     <div class="section-container" id="{{ project.anchor }}">
       <div class="content-container">

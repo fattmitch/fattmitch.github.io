@@ -2,14 +2,14 @@
 layout: case-study
 title: Rachel Feldman – Director
 title-short: Rachel Feldman
-description: A sleek and modern custom Squarespace site designed to bring Rachel, one of Hollywood's top female directors, into the spotlight. The site emphasizes her experience and activism in Hollywood.
+description: A sleek and modern custom Squarespace site designed to bring one of Hollywood's top female directors, into the spotlight. 
 feature-image:
 link: /rachel-feldman
 links:
   - text: Visit Site
     link: https://www.rachelfeldman.com/
 anchor: rachel-feldman
-date: 01/12/2014
+date: 2017/03/01
 image: /assets/images/rachel-feldman-hero.jpg
 ---
 
@@ -17,10 +17,6 @@ image: /assets/images/rachel-feldman-hero.jpg
 ---
 Rachel Feldman has directed more than 60 hours of film & television including series, features, & shorts. She has written features, pilots, & branded digital series. Rachel needed a new website to help bring visibility to her passion project: Fair Fight. Rachel now has a professional looking website which gives her instant credibility and showcases all of her accomplishments in film.
 
-<div class="case-button">
-  <a href="https://www.rachelfeldman.com/" target="_blank">
-    <div class="learn-button">Visit Her Site</div>
-  </a>
-</div>
+{% include case-study-button.html %}
 
 !["Rachel Feldman Hero"](/assets/images/rachel-feldman-hero.png)

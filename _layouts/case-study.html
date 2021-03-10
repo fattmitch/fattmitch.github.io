@@ -1,5 +1,6 @@
 ---
 layout: default
+class: white
 ---
 
 <div id="case-study" class="case-study-container">
@@ -13,7 +14,7 @@ layout: default
   <div class="page-nav">
     {% if page.previous.url %}
     <div class="back">
-      <a href="{{page.previous.url}}"><i class="fa fa-angle-left"></i>&nbsp;{{page.previous.title-short}}</a>
+      <a href="{{page.previous.url}}">{{page.previous.title-short}}&nbsp;<i class="fa fa-angle-right"></i></a>
     </div>
     {% else %}
     <div class="back">
@@ -22,7 +23,7 @@ layout: default
     {% endif %}
     {% if page.next.url %}
     <div class="next">
-    <a href="{{page.next.url}}">{{page.next.title-short}}&nbsp;<i class="fa fa-angle-right"></i></a>
+    <a href="{{page.next.url}}"><i class="fa fa-angle-left"></i>&nbsp;{{page.next.title-short}}</i></a>
     </div>
     {% endif %}
   </div>

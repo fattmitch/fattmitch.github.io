@@ -2,18 +2,19 @@
 layout: case-study
 title: Sanborn Western Camps
 title-short: Sanborn
-description: Sanborn Western Camps was in need of major website refresh. Their old website was outdated and non-responsive. They came to Ronningen Design to get on a modern platform and unique design.
+description: Their old website was outdated and non-responsive. Time to get on a modern platform with a unique design.
 feature-image:
 link: /sanborn-western-camps
 links:
   - text: Visit Site
     link: https://www.sanbornwesterncamps.com/
 anchor: sanborn-western-camps
-date: 01/12/2014
+date: 2017/04/01
 image: /assets/images/sanborn-hero.jpg
 ---
 
-# Site: Sanborn Western Camps
+# Sanborn Western Camps
+### Signature Site
 ---
 Working with the guidance of our lead designer, Chuck Fultz, Sanborn Western Camps' website was one of my first design projects at Ronningen Design. Work involved wire framing, low/high fidelity mockups, protoyping, and even crafting pages.
 
@@ -25,10 +26,6 @@ For Sanborn, Chuck and I work-shopped homepage wire frames. When we got to place
 
 After the mockups were all approved I sorted and rated their photos and crafted pages within their newly designed website.
 
-<div class="case-button">
-  <a href="https://www.rachelfeldman.com/" target="_blank">
-    <div class="learn-button">Visit the Site</div>
-  </a>
-</div>
+{% include case-study-button.html %}
 
-!["Rachel Feldman Hero"](/assets/images/sanborn-homepage-full.png)
+!["Sanborn Hero"](/assets/images/sanborn-homepage-full.png)

@@ -1,6 +1,8 @@
 <footer id="footer">
   <div class="footer-content">
-    <p>&copy; Matt Fitch 2020</p>
+    <!-- <p>&copy; Matt Fitch 2021</p> -->
+    <p class="copyright">&copy;Matt Fitch <span id="footer__current-year"></span></p>
+    <script>document.getElementById('footer__current-year').innerHTML = new Date().getFullYear();</script>
     {% include logo.html %}
   </div>
 </footer>

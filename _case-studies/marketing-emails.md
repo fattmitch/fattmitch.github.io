@@ -2,7 +2,7 @@
 layout: case-study
 title: Email Marketing Templates
 title-short: Email Marketing
-description: Using Campaign Monitor's canvas platform, these templates were created for client email marketing and newsletter purposes. Brand consistency was a must!
+description: Brand consisten email marketing templates through Campaign Monitor.
 feature-image:
 link: marketing-emails
 anchor: marketing-emails

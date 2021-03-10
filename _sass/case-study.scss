@@ -3,49 +3,63 @@
   .page-nav {
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row-reverse;
     justify-content: space-between;
     margin: rem(20px) rem(20px);
     
     @media screen and (min-width:768px) {
       max-width: rem(950px);
       margin: rem(20px) auto;
+      padding: 0 rem(60px);
     }
   }
 
   .back,
   .next {
     display: inline;
-  }
 
-  .next a,
-  .back a {
-    color: $black;
-    font-size: .8rem;
+    a {
+      color: $black;
+      font-size: .8rem;
+  
+      @media screen and (min-width:768px) {
+        font-size: rem(18px);
+      }
 
-    @media screen and (min-width:768px) {
-      font-size: rem(18px);
+      &:hover {
+        color: $red;
+
+        &::before {
+          visibility: hidden;
+        }
+      }
     }
   }
 
-  .next a:hover,
-  .back a:hover {
-    color: $red;
-  }
-
-  .next a:hover:before,
-  .back a:hover:before {
-    visibility: hidden;
-  }
-
-  .case-study h1 {
+  h1, h2, h3, h4 {
     text-align: center;
   }
 
-  .case-study h2 {
+  h1 + h3 {
+    margin-top: rem(-20px);
+  }
+
+  h2 {
     margin-top: rem(30px);
-    text-align: center;
     font-size: 1.3rem;
+
+    @media screen and (min-width: 768px) {
+        margin-top: rem(40px);
+        font-size: 1.6rem;
+      }
+    }
+
+  h3 {
+    text-transform: uppercase;
+    color: rgba($black,.3);
   }
+
+  h4 { margin-top: rem(60px); }
 
   hr {
     margin-bottom: rem(30px);
@@ -56,8 +70,8 @@
     background: $black;
 
     @media screen and (min-width: 768px) {
-        height: 2px;
-        margin-bottom: 40px;
+        height: rem(2px);
+        margin-bottom: rem(40px);
     }
   }
 
@@ -67,56 +81,13 @@
     margin-top: 30px;
   }
 
-  .yellow {
-    color: #FFB73E;
-  }
-
-  .case-study .learn-button {
-    width: 50%;
-    margin: 0 25% 0 25%;
+  .button-container {
     text-align: center;
+    margin: rem(40px) 0;
   }
 
-  .case-button a:hover:before {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-
-  .back {
-    //position: fixed;
-    top: 80px;
-    left: 30px;
-    padding-top: 10px
-  }
-
-  .next {
-    //position: fixed;
-    top: 80px;
-    right: 30px;
-    padding-top: 10px
-  }
-
-
-  .case-study h1 {
-    font-size: 2rem;
-  }
-
-  .case-study h2 {
-    margin-top: 40px;
-    font-size: 1.6rem;
-  }
-
-  hr {
-    height: 2px;
-    margin-bottom: 40px;
-  }
-
-  .case-study .learn-button {
-
-    margin: 15px 25% 15px 25%;
-
+  .learn-button {
+    // font-size: rem(2px);
   }
 }
 

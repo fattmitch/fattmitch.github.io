@@ -3,7 +3,9 @@
 
   {% include head.html %}
 
-  <body>
+  <!-- <body class="page--{{page.class}}"> -->
+
+  <body class="{% if page.class%}page--{{page.class}}{% else %}page--{{ layout.class }}{% endif %}"></body>
     <div id="site-wrapper">
 
     {% include header.html %}
