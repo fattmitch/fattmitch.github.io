@@ -22,7 +22,7 @@ As with every Ronnignen Design project, we start off with an in depth interview 
 
 From there, we put together a design collage, where we take all the input from the client and put together an inspiration board. We draw from this inspiration when we start the design process.
 
-For Sanborn, Chuck and I work-shopped homepage wire frames. When we got to place we liked, I took over fleshing out the rest of the mock ups, from mobile up to HD desktop viewports, checking in with Chuck and making edits when necessary. The collaborative relationship we had certainly had a positive impact on the final product.
+For Sanborn, Chuck and I work-shopped homepage wire frames. When we got to a place we liked, I took over fleshing out the rest of the mock ups, from mobile up to HD desktop viewports, checking in with Chuck and making edits when necessary. The collaborative relationship we had certainly had a positive impact on the final product.
 
 After the mockups were all approved I sorted and rated their photos and crafted pages within their newly designed website.
 
